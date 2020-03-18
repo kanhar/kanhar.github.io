@@ -1,2 +1,1 @@
-# kanhar.github.io
-Personal website
+Kanhar website
