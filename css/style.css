@@ -49,6 +49,13 @@ img {
     margin: 2.5rem auto;
 }
 
+.liner-100 {
+    background: rgb(130, 128, 128);
+    width: 100%;
+    height: 2px;
+    margin: 2.5rem 0 .7rem 0;
+}
+
 .show {
     display: block !important;
     z-index: 10;
@@ -56,6 +63,12 @@ img {
 
 .hide {
     display: none !important;
+}
+
+.footer-text {
+    font-family: var(--lato-font);
+    text-align: center;
+    padding: 2rem 0 1.2rem 0;
 }
 
 /* Padding classes */
@@ -143,13 +156,18 @@ img {
 #travel,
 #video,
 #awards,
-#contact {
+#contact,
+#single-video,
+#video-details {
     margin-left: 275px;
     padding: 8% 3% 0 3%;
 }
 
 #travel .travel-container > h2,
-#video .video-container > h2 {
+#video .video-container > h2,
+#single-video .single-video-container > h2,
+.video-title,
+.video-subtitle {
     font-family: var(--pauta-font);
     margin-bottom: 1.2rem;
     font-size: 2rem;
@@ -401,7 +419,48 @@ img {
     font-style: italic;
 }
 
+/* Section: single-video */
+#single-video .single-video-container .grid .grid-item:hover {
+    cursor: pointer;
+    opacity: .4;
+    transition: .3s all;
+}
+
+#single-video .single-video-container .grid .grid-item::after:hover {
+    cursor: pointer;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: .3s all;
+}
+
+/* Section: video-details */
+#video-details .video-details-container ul {
+    list-style: disc;
+    margin-left: 1.5%;
+}
+
+#video-details .video-details-container ul li {
+    font-family: var(--lato-font);
+    padding: .5rem 0;
+}
+
+.video-subtitle {
+    font-size: 1.2rem;   
+}
+
+
+
 /* For smaller devices */
+@media(max-width: 1400px) {
+    #video-details .video-details-container ul {
+        margin-left: 1.75%;
+    }
+}
+
 @media(max-width: 1250px) {
     #travel .travel-container .travel-items,
     #video .video-container .video-items {
@@ -413,6 +472,10 @@ img {
     #travel .travel-container .travel-items,
     #video .video-container .video-items {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    #video-details .video-details-container ul {
+        margin-left: 2%;
     }
 }
 
@@ -449,6 +512,22 @@ img {
         grid-template-columns: 1fr;
     }
 
+    #video-details .video-details-container ul {
+        margin-left: 3%;
+    }
+
+}
+
+@media(max-width: 800px) {
+    #video-details .video-details-container ul {
+        margin-left: 3.5%;
+    }
+}
+
+@media(max-width: 740px) {
+    #video-details .video-details-container ul {
+        margin-left: 4%;
+    }
 }
 
 /* @media(max-width: 600px) {
@@ -496,7 +575,9 @@ img {
     #travel,
     #video,
     #awards,
-    #contact {
+    #contact,
+    #single-video,
+    #video-details {
         margin-left: 0;
     }
 }
