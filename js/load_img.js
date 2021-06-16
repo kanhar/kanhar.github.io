@@ -1,3 +1,4 @@
+// Countries datas
 const countries= {
     "japan": [
         "img/travel_1.jpg",
@@ -113,12 +114,12 @@ if(travelCity != '') {
     document.querySelector(".single-travel-title").style.textTransform= 'capitalize';
 
     let output=  '';
-    all_images.forEach(image => {
+    all_images.forEach((image, index) => {
         // console.log(image);
         output += `
-            <div class="grid-item">
-                <img src="${image}" alt="img_1">
-            </div>
+            <a href="${image}" class='grid-item' data-fancybox="gallery">
+                <img src="${image}" alt="img_${index}">
+            </a>
         `;
     });
 
@@ -140,7 +141,7 @@ if(travelCity != '') {
     // render it to the screen
     // document.querySelector(".single-video-container .grid").insertAdjacentElement('beforeend', output);
     
-    // console.log(output);
+    console.log(output);
     console.log(parentDiv);
 
 } else {
