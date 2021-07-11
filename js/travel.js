@@ -611,7 +611,7 @@ const countries= {
 		]
 	},
 	"Merida, Mexico": {
-		"Desc": "Merida - we are so glad we found you with all your kindness, chocolates, cenotes, flamingos and music. I hope to be back soon! \nThanks to &#064;ramirocc93 for the underwater video ðŸ™‚",
+		"Desc": "Merida - we are so glad we found you with all your kindness, chocolates, cenotes, flamingos and music. I hope to be back soon! Highly recommend a visit to <a href='https://www.tripadvisor.com/Attraction_Review-g150811-d16747930-Reviews-Fela_Chocolate-Merida_Yucatan_Peninsula.html'>Fela's Chocolate</a>",
         "Country": "Mexico",
         "Images": [
 			"media/201911/72296242_3131309436884180_1523427652305264489_n_17866118779546332.jpg",
@@ -813,7 +813,7 @@ const countries= {
 			"media/201905/59758506_614322995711125_2915393556565365217_n_18064060639070524.jpg"
 		]
 	},
-	"TETrustom Bird Sanctuary and Point Judith, and Cepachet RI": {
+	"Point Judith, RI": {
 		"Desc": "Day 5: Trustom Bird Sanctuary and Point Judith, RI",
         "Country": "US",
 		"Images": [
@@ -933,7 +933,7 @@ if(page == 'travel.html') {
     div.className = 'travel-items';
     div.innerHTML = output;
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
-    document.querySelector(".travel-header").innerHTML= "<h2 class=\"travel-photos-title\">" + headerOutput + "</h2>";
+    document.querySelector(".travel-header").innerHTML = headerOutput;
 }
 else
 {
@@ -947,6 +947,8 @@ else
 
         if (cityName != travelCity)
             continue;
+
+        document.querySelector(".travel-description").innerHTML= cityDesc;
 
         var videoFound = false;    
         for (let cityImag of cityImages) 
@@ -990,7 +992,7 @@ else
     `;
 
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
+    document.querySelector(".travel-header").innerHTML= headerOutput;
+    document.querySelector(".travel-header").style.textTransform = 'capitalize';
 
-    document.querySelector(".travel-photos-title").innerHTML= headerOutput;
-    document.querySelector(".travel-photos-title").style.textTransform = 'capitalize';
 }
