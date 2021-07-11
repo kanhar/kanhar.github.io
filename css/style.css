@@ -39,7 +39,7 @@ img {
 
 /* Utility classes */
 .active {
-    color: #ff0059;
+    color: inherit;
 }
 
 .liner {
