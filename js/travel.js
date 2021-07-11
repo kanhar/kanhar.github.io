@@ -864,10 +864,26 @@ const datas = Object.entries(countries);
 const travelCity  = urlParams.get('travel_city');    
 const travelCountry  = urlParams.get('travel_country');  
 
+var headerOutput;
+var worldHref = '<a href="travel.html">World</a>';
+var countryHref = '<a href="travel.html?travel_country=' + travelCountry + '">' + travelCountry +'</a>';
+var cityHref = '<a href="travelPhotos.html?travel_country=' + travelCountry + '&travel_city='+travelCity+'">'+travelCity+'</a>';
+if (travelCountry != null && travelCity != null)
+{
+    headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
+}
+else if(travelCountry != null)
+{
+    headerOutput = worldHref + " --> " + countryHref;
+}
+else
+{
+    headerOutput = worldHref;
+}
+
 // Render the image for the travel.html page.
 if(page == 'travel.html') {
     let output  = '';
-
     var countriesDisplayed = new Set()
     for(let key of datas) 
     {
@@ -917,13 +933,11 @@ if(page == 'travel.html') {
     div.className = 'travel-items';
     div.innerHTML = output;
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
+    document.querySelector(".travel-header").innerHTML= "<h2 class=\"travel-photos-title\">" + headerOutput + "</h2>";
 }
 else
 {
     // Level 3: Show photos for a Country, city
-    document.querySelector(".single-travel-title").innerHTML= travelCity;
-    document.querySelector(".single-travel-title").style.textTransform = 'capitalize';
-
     let output=  '';
     for(let key of datas) 
     {
@@ -977,4 +991,6 @@ else
 
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
 
+    document.querySelector(".travel-photos-title").innerHTML= headerOutput;
+    document.querySelector(".travel-photos-title").style.textTransform = 'capitalize';
 }

@@ -157,7 +157,7 @@ img {
 #video,
 #awards,
 #contact,
-#single-video,
+#travel-photos-section-id,
 #HomePage,
 #video-details {
     margin-left: 275px;
@@ -165,13 +165,15 @@ img {
 }
 
 #travel .travel-container > h2,
+#travel .travel-header > h2,
 #video .video-container > h2,
-#single-video .travel-container > h2,
+#travel-photos-section-id .travel-container > h2,
 .video-title,
 .video-subtitle {
     font-family: var(--pauta-font);
     margin-bottom: 1.2rem;
     font-size: 2rem;
+    color: red;
     text-transform: uppercase;
 }
 
@@ -420,14 +422,14 @@ img {
     font-style: italic;
 }
 
-/* Section: single-video */
-#single-video .travel-container .grid .grid-item:hover {
+/* Section: travel-photos-section-id */
+#travel-photos-section-id .travel-container .grid .grid-item:hover {
     cursor: pointer;
     opacity: .4;
     transition: .3s all;
 }
 
-#single-video .travel-container .grid .grid-item::after:hover {
+#travel-photos-section-id .travel-container .grid .grid-item::after:hover {
     cursor: pointer;
     content: '';
     position: absolute;
@@ -577,7 +579,7 @@ img {
     #video,
     #awards,
     #contact,
-    #single-video,
+    #travel-photos-section-id,
     #video-details {
         margin-left: 0;
     }
