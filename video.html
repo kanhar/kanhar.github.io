@@ -10,7 +10,9 @@
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            document.querySelector("#main-header").classList.toggle("show");
+            document.querySelector("#nav-btn").addEventListener("click", () => {
+                document.querySelector("#main-header").classList.toggle("show");
+            });
             
             $.ajax({
                 url: "header.inc.html", success: function (result) {
