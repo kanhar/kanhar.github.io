@@ -166,7 +166,7 @@ img {
 
 #travel .travel-container > h2,
 #video .video-container > h2,
-#single-video .single-video-container > h2,
+#single-video .travel-container > h2,
 .video-title,
 .video-subtitle {
     font-family: var(--pauta-font);
@@ -421,13 +421,13 @@ img {
 }
 
 /* Section: single-video */
-#single-video .single-video-container .grid .grid-item:hover {
+#single-video .travel-container .grid .grid-item:hover {
     cursor: pointer;
     opacity: .4;
     transition: .3s all;
 }
 
-#single-video .single-video-container .grid .grid-item::after:hover {
+#single-video .travel-container .grid .grid-item::after:hover {
     cursor: pointer;
     content: '';
     position: absolute;

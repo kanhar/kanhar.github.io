@@ -91,102 +91,61 @@ const countries= {
 
 var path = window.location.pathname;
 var page = path.split("/").pop();
-// console.log(page);
 
-if(page == "single_travel.html") {
-    // Get the URL param
-    const queryString = window.location.search;
-    const urlParams   = new URLSearchParams(queryString);
-    
-    const travelCity  = urlParams.get('travel_city');
-    
-    // Check if the url param doesn't contain empty value.
-    if(travelCity != '') {
-    
-        // load images that is related to the specific country
-        var x= Object.entries(countries);
-        // console.log(x);
-        // Find the data related to the specific country
-        var found= x.find(y => {
-            return y[0] == travelCity;
-        });
-          
-        var all_images= found[1];
-        // console.log(found);
-    
-        // Show the country title at the top.
-        document.querySelector(".single-travel-title").innerHTML= found[0];
-        document.querySelector(".single-travel-title").style.textTransform= 'capitalize';
-    
-        let output=  '';
-        all_images.forEach((image, index) => {
-            // console.log(image);
-            output += `
-                <a href="${image}" class='grid-item' data-fancybox="gallery">
-                    <img src="${image}" alt="img_${index}">
-                </a>
-            `;
-        });
-    
-        // Create new element
-        const parentDiv = document.createElement("div");
-        parentDiv.className   = 'grid';
-        parentDiv.innerHTML= `
-            <div class="grid-col grid-col--1">
-                        
-            </div>
-            <div class="grid-col grid-col--2">
-    
-            </div>
-            ${output}
-        `;
-    
-        document.querySelector(".single-video-container").insertAdjacentElement("beforeend", parentDiv);
-    
-        // console.log(output);
-        // console.log(parentDiv);
-    
-    } else {
-        window.location.href = 'video.html';
-    }
-}
+// Get the URL param
+const queryString = window.location.search;
+const urlParams   = new URLSearchParams(queryString);    
+const travelCity  = urlParams.get('travel_city');    
 
 // Render the image for the travel.html page.
 if(page == 'travel.html') {
-    /////////////////////////////////////
-    // For images in the travel.html file
-    function fetch_travel_html_images() { 
-        var path = window.location.pathname;
-        var page = path.split("/").pop();
+    let output  = '';
+    const datas = Object.entries(countries);
 
-        if(page === 'travel.html') {
-            // Create element
-            const div     = document.createElement("div");
-            div.className = 'travel-items';
+    datas.forEach(d=> {
+        output += `
+            <a href="travelPhotos.html?travel_city=${d[0]}" class="item">
+                <div class="img-container">
+                    <img src="${d[1][0]}" alt="">
+                </div>
+                <span>${d[0]}</span>
+            </a>
+        `;
+    });
 
-            let output  = '';
-            const datas = Object.entries(countries);
-
-            datas.forEach(d=> {
-                // console.log(d[0]);
-                output += `
-                    <a href="single_travel.html?travel_city=${d[0]}" class="item">
-                        <div class="img-container">
-                            <img src="${d[1][0]}" alt="">
-                        </div>
-                        <span>${d[0]}</span>
-                    </a>
-                `;
-            });
-
-            div.innerHTML= output;
-
-            document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
-
-            // console.log(output);
-        }
-    }
-    fetch_travel_html_images();
+    // Create element
+    const div     = document.createElement("div");
+    div.className = 'travel-items';
+    div.innerHTML = output;
+    document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
 }
+else
+{
+    var x = Object.entries(countries);       
+    var all_images= countries[travelCity];
 
-// console.log(travelCity);
+    // Show the country title at the top.
+    document.querySelector(".single-travel-title").innerHTML= travelCity;
+    document.querySelector(".single-travel-title").style.textTransform= 'capitalize';
+
+    let output=  '';
+    all_images.forEach((image, index) => {
+        output += `
+            <a href="${image}" class='grid-item' data-fancybox="gallery">
+                <img src="${image}" alt="img_${index}">
+            </a>
+        `;
+    });
+
+    // Create and Inject new Div
+    const parentDiv = document.createElement("div");
+    parentDiv.className   = 'grid';
+    parentDiv.innerHTML= `
+        <div class="grid-col grid-col--1"></div>
+        <div class="grid-col grid-col--2"></div>
+        ${output}
+    `;
+
+    document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
+
+}
