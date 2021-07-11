@@ -105,8 +105,45 @@ const countries= {
 			"media/202003/87648001_634516340657431_7086284559380633610_n_17849860147927701.jpg",
             "media/202003/89436586_651897818930008_4731969908704988531_n_18106160305113275.mp4",
 			"media/202003/KochiFestivalVideo.jpg",
+            "media/202003/88839510_503126427053122_4056716038556708255_n_17848786045897314.jpg",
+            "media/202003/88408527_828308621005703_6241526928120123372_n_17899187059441963.jpg",
+            "media/202003/87715853_525826481407975_2563095726253184499_n_17858648398753073.jpg",
+            "media/202003/88386346_149895539816003_8217776073298390110_n_17847939496960074.jpg",
+            "media/202003/83760157_797259977449654_8734786535888730015_n_17848815988947163.jpg",
+            "media/202003/88310954_832447260607440_6372710355718269717_n_17876190976564884.jpg",
+            "media/202003/89607331_623517961803693_2737829753740637441_n_17918069149389838.jpg",
+            "media/202003/88887075_542720249697249_8168646524109058155_n_17886000433492972.jpg",
+            "media/202003/89000780_1265061443696296_952308389331129021_n_17855863840822401.jpg"
 		]
 	},
+    "Goa, India": {
+		"Desc": "Happy Holi from Goa. Found a delicious colorful lunch place called Gunpowder and avoided some of the crazy color parties. We are just old I guess ðŸ§¡ðŸ’›ðŸ’šðŸ’™ðŸ’œ but even though we didn&#039;t throw colors at each other, we sure saw a lot of color all around us. #indianjonesandlaracroft #carolynkanhar",
+        "Country": "India",
+        "Images": [
+            "media/202003/89382303_2556935101300327_1785395013315125939_n_18096294484085972.jpg",
+            "media/202003/89603257_633979710771128_5297568439498687388_n_18047080387231877.jpg",
+            "media/202003/89292457_636378410263303_5902290720700938153_n_17865501199683061.jpg",
+            "media/202003/89737840_222650645542254_4745270490017671499_n_17885437129504667.jpg",
+            "media/202003/84155550_494291247931201_7022820088822579639_n_17863607395728362.jpg",
+            "media/202003/79387271_616359815594971_2143314978171647679_n_17854823587856051.jpg",
+            "media/202003/84155550_102315804680394_4102276385282811876_n_17844127253024943.jpg"
+		]
+	},
+    "Chennai, India": {
+		"Desc": "We explored the coastal ruins and temples from around the 8th century on our drive from Pondicherry to Chennai this morning. The breeze from the Bay of Bengal kept us cool as the sun blazed. #indianjonesandlaracroft #carolynkanhar",
+        "Country": "India",
+        "Images": [
+            "media/202003/89081111_573542119918291_2700556621148005093_n_18131890915059553.jpg",
+            "media/202003/89382306_511778189482038_4364301354553365110_n_17911126873410022.jpg",
+            "media/202003/88246798_2055679337910668_2794137134746038172_n_17863954027694391.jpg",
+            "media/202003/89381542_2634176323479691_5718392342336668555_n_17867767933639599.jpg",
+            "media/202003/88957800_630253997758810_2549083823037418133_n_17871225298610145.jpg",
+            "media/202003/88204904_546525486216413_3831748341716633701_n_17898243922449214.jpg",
+            "media/202003/83775471_242503436768416_2815469580360104194_n_17888670370487482.jpg",
+            "media/202003/89383313_555261538423269_5281923487574928981_n_17856553852790378.jpg",
+            "media/202003/88237100_1364028263784645_5472968739046963033_n_17936077090348758.jpg"
+        ]
+    },
 	"Pondicherry, India": {
 		"Desc": "Pondicherry, Tamil Nadu, India: The best of the Indian South shaped robustly by a 400 year old French presence, creates a blend that is as much New Orleanesque as it is Indian. Literacy rates here are some of the highest in India, as is almost every statistically measurable measure of gender equality â€“ scooting through the streets in motorbikes without helmets, smoking hand rolled bidis (cigarillos), the woman of this town, lead the way for the rest of India to follow. Fine French cafÃ©s and fresh croissants are in abundance â€“ as are the creole prawn and crab risotto with blended curry leaf and a dash of turmeric. The New Orleans styled Second Line, is instead a â€˜Second in Lineâ€™ Elephant march, with an Elephant walking a full mile from the edge of town to a temple in the center, and the town walks right behind it â€“ often with drummers accompanying the procession. The Elephant blesses all that are brave enough to feed it a nice cucumber. Jesus statues in local churches are often adorned with garlands of flowers, and the ice cream often comes in a green chilli flavor. #carolynkanhar #indianjonesandlaracroft",
         "Country": "India",
@@ -121,7 +158,30 @@ const countries= {
 			"media/202003/87349160_202909934123634_5701103409940175142_n_18133932214028059.jpg",
 			"media/202003/87525619_202571850828693_3598524365134879556_n_17911680295404470.jpg",
 			"media/202003/88137314_343926629824800_2021005340792590019_n_17867766133634723.jpg",
-			"media/202003/89275972_203264211029211_3664199037511437784_n_18079086946170172.jpg"
+			"media/202003/89275972_203264211029211_3664199037511437784_n_18079086946170172.jpg",
+            "media/202003/88391546_508907963068186_6426726907378457967_n_17871320242610487.jpg",
+            "media/202003/84358883_3119126601455383_5190341138413469110_n_17853264964869603.jpg",
+            "media/202003/89378434_2792024727558075_3416669845651441083_n_18011187529274738.jpg",
+            "media/202003/88246797_137641051075481_6984847184657626810_n_17907507511418974.jpg",
+            "media/202003/89328556_1069911963375019_6143774203032457928_n_18109183438104816.mp4",
+            "media/202003/87572858_208522887197786_4622081253852854605_n_17913636967392239.jpg",
+            "media/202003/88202300_2554602411485156_629365298948643799_n_18093746596133844.jpg",
+            "media/202003/87592500_896276287508908_761091175255717380_n_18040611442244896.jpg",
+            "media/202003/88386333_3272091606152255_3521432124752084435_n_17844158384009615.jpg",
+			"media/202003/89360628_2712852302124044_3065200716211459140_n_18095270020188443.mp4",
+			"media/202003/87349161_633082377479796_1225139396327129812_n_18097267069191506.jpg",
+            "media/202003/87502333_492222388121631_7421721372958709857_n_17886763750499759.jpg",
+            "media/202003/88183142_1167543756916270_5978318649568100402_n_17845422649995397.jpg",
+            "media/202003/89259819_204786880596996_6167866920613818915_n_17917823365377488.mp4",
+            "media/202003/84106099_191684072146484_2335238617639008938_n_18095543755085330.jpg",
+            "media/202003/88183139_3318886591459167_7237127592779194272_n_17849560339911250.jpg",
+            "media/202003/88917240_2022511091227569_7566366264733800815_n_17942494615332288.jpg",
+            "media/202003/88916272_123296662577026_4528717244799805972_n_17855777668831052.jpg",
+            "media/202003/87423172_156553275372452_9111367547491131587_n_17953384054311068.jpg",
+            "media/202003/88132662_851111925316275_3744448883361344747_n_18088613917158602.jpg",
+            "media/202003/89608895_731911114003868_779276309136551782_n_17844411548025445.jpg",
+            "media/202003/89001909_407837063421016_2060492627024956589_n_17885625970504375.jpg",
+			"media/202003/82311933_1199605650390183_424148999254967735_n_17914740286400025.jpg"
 		]
 	},
 	"Jaipur, India": {
@@ -139,6 +199,59 @@ const countries= {
 			"media/202002/85118468_195578401824090_3009387244018944696_n_17852940727832024.jpg"
 		]
 	},
+    "Dehradun and Mussoorie": {
+        "Desc": "Kanhar visited his boarding school in Dehradun, Welhams Boys, after 25 years. It was a beautiful place with such polite students that thought we were looking to send our son there. Way to feel old. After visiting there, we went to the hill station Mussoorie, in the foothills of the Himalayas. There is another boarding school there called Woodstock... we were able to stay in a stone cottage on the school grounds where I spent the day painting and listened to the rain. #carolynkanhar #indianjonesandlaracroft",
+        "Country": "India",
+		"Images": [
+            "media/202002/87559406_141431204005176_1989473126869329183_n_18094226554093901.jpg",
+            "media/202002/87504634_502559163668611_6918717890648840482_n_17856039487816200.jpg",
+            "media/202002/88137734_214330599958651_7097963637173929011_n_17855777770793262.jpg",
+            "media/202002/85149458_189242812347130_4974556348677161899_n_17858587354747330.jpg",
+            "media/202002/84146692_843739029463442_2935934105448944923_n_17855424763812357.jpg",
+            "media/202002/88177330_228896448292993_4074670984271368689_n_17941831363333422.jpg",
+            "media/202002/84083399_564683674130608_2958274617782110929_n_17883134086514551.jpg",
+            "media/202002/83856857_486814918659976_802486541439581556_n_17853225280863075.jpg"
+        ]
+    },
+    "Chandigarh": {
+        "Desc": "The Rock Garden in Chandigarh, India is the 2nd most visited place in India, second to the Taj Mahal. It was originally created by Nek Chand in his secret spare time gradually becoming roughly 18 acres of sculpted landscape, until it was discovered by government officials and threatened to be torn down. He collected and used discarded materials like toilets, construction materials, concrete and most beautifully, old bangle bracelets. Beloved by the people of Chandigarh, it was spared and exists for all to oo and ah at. It was the most creative thing I have seen. #indianjonesandlaracroft #carolynkanhar #chandigarh",
+        "Country": "India",
+		"Images": [
+            "media/202002/87403437_134791494689151_4581642120529906662_n_17916972427391786.jpg",
+            "media/202002/85164475_494173291268287_8460481818080993044_n_17854659505830414.jpg",
+            "media/202002/87240203_135778851274506_7120844832551937455_n_17998882216304287.jpg",
+            "media/202002/79906148_195303428349660_6964629939595534490_n_17873536795565485.jpg",
+            "media/202002/84564318_143996240416753_5578481691980690408_n_18129699799055051.jpg",
+            "media/202002/87345114_188521059083272_6952497759598193287_n_17853092977847481.jpg",
+            "media/202002/87695410_481725442709060_462788359047016676_n_18052599460210615.jpg",
+            "media/202002/87597840_489257461978933_7815693301409317027_n_17857820728770570.jpg",
+            "media/202002/87521027_2845295668857135_3260199272448534750_n_18075578758187489.jpg",
+            "media/202002/87329956_2621599461420264_415103031977895369_n_17917216477388571.jpg"
+        ]
+    },
+    "Amritsar, India": {
+        "Desc": "Amritsar, India. Kanhar and I have been exploring in India after the wedding in Kolkata. We have been to a number of amazing places since, but our energy has been slow to recover, so get ready for many posts of these travels! Our last stop on our northern India route was Amritsar, in the Punjab region, roughly 30km from the Pakistan border. The home of the Golden Temple, completed in 1589, the most important and beautiful gurdwara of the Sikh faith. It filled out hearts AND our stomachs by providing free meals, 24 hours a day to anyone who enters. Really a  gorgeous day and special, beautiful feelings. #indianjonesandlaracroft #carolynkanhar #amristar",
+        "Country": "India",
+		"Images": [
+            "media/202002/87299505_2343038302608320_2391238595703723106_n_17865767131659235.jpg",
+            "media/202002/83945992_622527485200905_5454966682367276555_n_18043694440227061.jpg",
+            "media/202002/83782353_142654947215496_6139900930306464681_n_17847372433907124.jpg",
+            "media/202002/85190647_1109876416026494_2627691135968047908_n_17926094188363498.jpg",
+            "media/202002/84331846_2835058723301806_2571153999956412556_n_17922878920374480.jpg",
+            "media/202002/84352717_155761752074961_8694992156156169010_n_18106193890099060.jpg",
+            "media/202002/87304976_250881952592690_1300645166877320080_n_17855103874821473.jpg",
+            "media/202002/83898395_764714420722355_4920109329406447443_n_17856246997787138.jpg",
+            "media/202002/87708466_513422722691422_346517873277938726_n_17871540172597220.jpg",
+			"media/202002/85153954_659467644788313_3541496500111578648_n_18010093810275470.jpg",
+            "media/202002/83923473_493099698265288_3972795550498661543_n_18087634381153871.jpg",
+            "media/202002/84120535_1026031334448868_805962187811729828_n_18128528905014479.jpg",
+            "media/202002/84316182_201724114567221_277659555589525468_n_17856145195784203.jpg",
+            "media/202002/87479205_503855853664352_9114224460448790628_n_17948889748319285.jpg",
+            "media/202002/85229112_686781428725860_2213190480067234191_n_17863225228714351.jpg",
+            "media/202002/84100761_196478278238393_244958683749677607_n_17843080169009428.jpg",
+            "media/202002/83887032_638474866928560_1686224415857739991_n_17879848159520556.jpg"
+        ]
+    },
 	"Istanbul, Turkey": {
 		"Desc": "Istanbul, Turkey - Machine gun toting commandos waiting patiently in line for their afternoon kebab, retired men smoking hookah, an abundance of freshly squeezed pomegranate juice and a relative scarcity of liquor greeted us in Istanbul, a good mid point between the discipline of Europe and the chaos of India. We hopped over the Bosphoros on a commuter ferry that could just have well been the Staten Island ferry in NY, except that we were served several hot cups of Sahlep, a tea made out of the tubers of orchids. The food here was good, but not much different from what can be found at most Turkish restaurants globally - the one standout dish and restaurant that blew us and some mussels out of the water was the &#039;Midye Dolma&#039;, mussels stuffed with aromatic rice, at the Midyeci Ahmet restaurant. The mosques turned churches turned mosques were of some interest, the Turkish baths were less baths and more like glorified steam rooms, and the traffic started to resemble that in India, we walked around listening to afternoon and evening prayers in Arabic blaring loudly from what appeared to be competing mosques, absorbing as much of the architecture as we could. #carolynkanhar #indianjonesandlaracroft",
         "Country": "Turkey",
@@ -152,7 +265,27 @@ const countries= {
 			"media/202001/81973959_114279613311859_4940511882391564776_n_17935717732334938.jpg",
 			"media/202001/81628232_157828245670676_5395143168541901022_n_17849833396865485.jpg",
 			"media/202001/83225765_2899390940112461_7811205774256984168_n_18093791821137005.jpg",
-			"media/202001/81773270_1204236449775964_8777484061091629190_n_17875323193532232.jpg"
+			"media/202001/81773270_1204236449775964_8777484061091629190_n_17875323193532232.jpg",
+            "media/202001/83972201_2493621950904609_8487998565970390019_n_18091343077082391.mp4",
+            "media/202001/82961999_143593406603267_2407944808311888562_n_18119618149068190.jpg",
+            "media/202001/83421824_210783040079670_6496314284449308097_n_17853333358802546.jpg",
+            "media/202001/83133759_190441345679456_443586083802377982_n_18091488904184162.jpg",
+            "media/202001/81665430_171572287497996_8737452872323959528_n_17879967553511287.jpg",
+            "media/202001/84337971_170108870919802_8548826738626281934_n_17845306051909512.jpg",
+            "media/202001/81553278_156123212475541_6670181402048512395_n_17857566025730356.jpg",
+            "media/202001/81835230_540462336554600_506306148284897772_n_17981353933294284.jpg",
+            "media/202001/82007205_1507482499428647_193221579575126226_n_17849797348861756.jpg",
+            "media/202001/82772336_464678164409400_4664074904001563216_n_17861299024671416.jpg",
+            "media/202001/83679734_882927582163042_285318526439293947_n_17935734085337271.jpg",
+            "media/202001/81401361_551014022431318_7792375647491173374_n_17898058843436269.jpg",
+            "media/202001/81431477_1903934623084287_7816223548730248361_n_18125144113029527.jpg",
+            "media/202001/82081850_180500209995631_3676418981038959655_n_18022300519251140.jpg",
+            "media/202001/82712418_474566773202873_1539012657494268985_n_18126732856007072.jpg",
+            "media/202001/83335170_2666833000039252_3732868011987339341_n_17859142258725359.jpg",
+            "media/202001/83201745_267894387523455_828017615377386175_n_17875460566541736.jpg",
+            "media/202001/82146466_614181005815343_5300920912622994275_n_18126459682061451.jpg",
+            "media/202001/82051726_194836738300215_7947066271649306740_n_17904208600409339.jpg",
+			"media/202001/82185207_225534265130539_4789606880189819291_n_17845299328910488.jpg"
 		]
 	},
 	"Budapest, Hungary": {
@@ -168,7 +301,17 @@ const countries= {
 			"media/202001/82140570_2623294231225097_9025564277109130846_n_17855043847738368.jpg",
 			"media/202001/82027545_2532337613708267_8390002878406530591_n_17844760276912286.jpg",
 			"media/202001/82739944_2555259191267370_7706523373647993032_n_17842727581950092.jpg",
-			"media/202001/81436960_114565836597047_2988720657099885942_n_18125960746059161.jpg"
+			"media/202001/81436960_114565836597047_2988720657099885942_n_18125960746059161.jpg",
+            "media/202001/81977590_2600580206857060_5641081744762663549_n_17866509901614153.jpg",
+            "media/202001/83415272_2739412976151151_4366420025613231583_n_17938653580333441.jpg",
+            "media/202001/83327461_162021845102599_6024806064627294887_n_17980701829289522.mp4",
+            "media/202001/81310201_997752660607207_7716387927091510388_n_17859319129693578.jpg",
+            "media/202001/82329740_560805927853275_7917676052813102763_n_17843964352938847.jpg",
+            "media/202001/83775296_153169256105995_5023121553000493598_n_17880276739499687.mp4",
+            "media/202001/81039582_125819088918679_5300551452436639869_n_17847656809880676.jpg",
+            "media/202001/80335732_519008778966880_7460548467947510272_n_18021326755250449.jpg",
+            "media/202001/82146467_154336002671390_4010043504049852355_n_17937935377332646.jpg",
+            "media/202001/82129877_834556936990810_253315332093667098_n_17851079350838507.jpg"
 		]
 	},
 	"Vienna, Austria": {
@@ -184,11 +327,21 @@ const countries= {
 			"media/202001/81169139_1497237507097174_1947026662233287888_n_17860659742670928.jpg",
 			"media/202001/83215064_172147043880728_5477434035180570841_n_18118874287064237.jpg",
 			"media/202001/83731298_175924896989499_3567941526949289043_n_17859349870698437.jpg",
-			"media/202001/83695384_207476067078039_3510745364263198490_n_18113379772073408.jpg"
+			"media/202001/83695384_207476067078039_3510745364263198490_n_18113379772073408.jpg",
+            "media/202001/83093610_1241356479392550_7977764088009847265_n_17847390952892844.jpg",
+            "media/202001/80897368_519858131970445_1431215140332474952_n_17861435680664855.jpg",
+            "media/202001/81233469_1250627701804104_3213179071246873380_n_17852124214826661.jpg",
+            "media/202001/82064786_115497396473684_7936966392598623549_n_18034347754244722.jpg",
+            "media/202001/83002955_476953402980902_6325213469747708799_n_18126316891060528.jpg",
+            "media/202001/80794040_1204004703137713_5062889162945368312_n_17848230955852418.jpg",
+            "media/202001/81804040_1411431629017911_443172918265550584_n_18097559602126605.jpg",
+            "media/202001/82313243_897013047421441_3091277967451022039_n_17849110018862176.jpg",
+            "media/202001/81431087_541264983140520_1682598064892779918_n_17859243910694519.jpg",
+            "media/202001/80853526_2548987901876833_2538041302183539765_n_17844593689924620.jpg"
 		]
 	},
 	"Prague, Czechia": {
-		"Desc": "Prague, Czechia - probably one of the few remaining European countries that are affordable, with a cultural and political history thats quite remarkable. We loved the food, the people, and of course the Pilsner Urquell. We ate at this place called Lokal which we recommend highly - their food is authentic and appetizers and beers average 3$, their version of fried cheese is breaded quite unlike the fried cheese you can find in the northern Himalayas.  On our way down from Charles Bridge we stumbled into an ancient looking pub called the Tavern U Krale Brabantskeho, established 1375. The food was good all around, and the Ubers prompt. Twice we were picked up in an E-class Mercedes for a 15 minute trip that cost 4$ - how the economics of all that worked out is still unclear to me. The Prague castle is the largest castle complex in the world, and worth going to, followed by a walk down to the bridge and a quick river cruise. Overall, we felt like we were in a fairytale kingdom where the people were a friendly sort, and happy to see us. Strongly recommend folks visit, and if they do stay the extra day. #carolynkanhar #indianjonesandlaracroft",
+		"Desc": "Prague, Czechia - probably one of the few remaining European countries that are affordable, with a cultural and political history thats quite remarkable. We loved the food, the people, and of course the Pilsner Urquell. We ate at this place called Lokal which we recommend highly - their food is authentic and appetizers and beers average 3$, their version of fried cheese is breaded quite unlike the fried cheese you can find in the northern Himalayas.  On our way down from Charles Bridge we stumbled into an ancient looking pub called the Tavern U Krale Brabantskeho, established 1375. The food was good all around, and the Ubers prompt. Twice we were picked up in an E-class Mercedes for a 15 minute trip that cost 4$ - how the economics of all that worked out is still unclear to me. The Prague castle is the largest castle complex in the world, and worth going to, followed by a walk down to the bridge and a quick river cruise. Overall, we felt like we were in a fairytale kingdom where the people were a friendly sort, and happy to see us. Strongly recommend folks visit, and if they do stay the extra day. Prague! What a day! The astronomical clock in the Old Town Square chimed us in and then we proceed to eat a ton of Goulash and drink Czech beer. We enjoyed a guided tour of St. Vitus Cathedral where we stood above the crypt of King Wenceslas and saw the door to the room where the crown jewels of Bohemia are kept. The door has seven locks and needs all seven keyholders to be present at the same time to open the door. The crown contains a thorn from Jesus&#039;s crown of thorns...what?! We then walked the Charles Bridge and enjoyed a boat ride on the Vltava River to watch the sun set. And then we ate more goulash in candlight at the oldest pub in Prague from 1375. #carolynkanhar #indianjonesandlaracroft",
         "Country": "Czechia", 
         "Images": [
 			"media/202001/81796000_183173329435219_6136666101403903864_n_18087285943130140.jpg",
@@ -200,7 +353,17 @@ const countries= {
 			"media/202001/82812696_538967303380828_555162390824129755_n_17993740303287574.jpg",
 			"media/202001/80577046_987534828298954_3462283910629286116_n_17860160758682561.jpg",
 			"media/202001/81684549_166096221322824_8739591583260192067_n_17862741493629840.jpg",
-			"media/202001/81686145_178748643342720_5809881818573575104_n_18096258556120399.jpg"
+			"media/202001/81686145_178748643342720_5809881818573575104_n_18096258556120399.jpg",
+            "media/202001/83186492_118104432823274_6505866091220130608_n_17881203154494429.mp4",
+            "media/202001/80343929_260862418228187_595277688751474934_n_17844543616918191.jpg",
+            "media/202001/82055257_118028653058784_6378319553541514008_n_17873935153556747.jpg",
+            "media/202001/82411134_259721158332259_1939893694218317435_n_17861341120664079.jpg",
+            "media/202001/82395163_1667176156780536_7181105400192238510_n_17844495877929072.jpg",
+            "media/202001/82010183_177615543473844_5656241925427345600_n_17929467703344951.jpg",
+            "media/202001/83201748_479864856006078_6471372501748351016_n_17919017623375153.jpg",
+            "media/202001/83926949_801648047012585_1512512415394168805_n_18046928005220199.jpg",
+            "media/202001/82156373_525448431423218_2464775149401731280_n_18049975390209744.jpg",
+            "media/202001/82958302_876469389452335_3540768319739661691_n_17843587204903077.jpg"
 		]
 	},
 	"Berlin, Germany": {
@@ -213,7 +376,8 @@ const countries= {
 			"media/202001/81609509_475452220072885_5281694503362579473_n_18085689331176165.jpg",
 			"media/202001/81907095_2770914796287685_5053138658427453248_n_17877458623516515.jpg",
 			"media/202001/83345251_603541317125841_4601685511009820584_n_18072985561199575.jpg",
-			"media/202001/80878781_1441701562653849_745785719570657596_n_17861232547667012.jpg"
+			"media/202001/80878781_1441701562653849_745785719570657596_n_17861232547667012.jpg",
+            "media/202001/80815430_210356410000159_8381902397050611897_n_18123779548023130.jpg"
 		]
 	},
 	"Amsterdam, Netherlands": {
@@ -229,7 +393,17 @@ const countries= {
 			"media/202001/81755279_241783896805386_3664675557147146469_n_17902590961418064.jpg",
 			"media/202001/83889489_455222632032659_5242176619312878122_n_17886824929468996.jpg",
 			"media/202001/83526892_511861979748335_2080398010330999777_n_17867652787603829.jpg",
-			"media/202001/84067984_1514026472071946_8581238867302186230_n_18021652360255959.jpg"
+			"media/202001/84067984_1514026472071946_8581238867302186230_n_18021652360255959.jpg",
+            "media/202001/81028833_487060635551470_6590815493893271117_n_17883383914479943.jpg",
+            "media/202001/82980063_605944060243187_8832038330693292521_n_17862822319644578.jpg",
+            "media/202001/83200786_131769534570834_81292064163623945_n_17850756325834795.jpg",
+            "media/202001/80690924_108142743959870_5353308006116103889_n_18021963337250280.jpg",
+            "media/202001/82443346_597841444095880_6257534623793335847_n_18074680660199122.jpg",
+            "media/202001/81615570_475537249777888_4317643431655905688_n_17980895617295802.jpg",
+            "media/202001/83198172_1070614089952793_875916895166816924_n_17842981597948408.jpg",
+            "media/202001/81652555_198231954889618_7007093113112266213_n_18041153950230411.jpg",
+            "media/202001/82915621_265850714379718_4816683242904561817_n_18100145980118417.jpg",
+            "media/202001/82614264_2549335285389957_3633894055280238912_n_17893103788451444.jpg"
 		]
 	},
 	"Barcelona, Spain": {
@@ -245,7 +419,21 @@ const countries= {
 			"media/202001/81590672_127640402062066_6514466452288811267_n_17855757661742345.jpg",
 			"media/202001/81515628_538431357030167_5121086871227448805_n_17861607703660194.jpg",
 			"media/202001/81281330_474895573195442_8019893717663049315_n_17919036367375418.jpg",
-			"media/202001/81163539_2209620522667330_2565883570521881841_n_17854659985738944.jpg"
+			"media/202001/81163539_2209620522667330_2565883570521881841_n_17854659985738944.jpg",
+            "media/202001/80809815_2588179034800310_6174338941289543387_n_17847221437888697.jpg",
+            "media/202001/80668933_466777460683269_5816429048010567772_n_17873636464557711.jpg",
+            "media/202001/84106183_113697049991911_4231645530807166944_n_17843393356899453.jpg",
+            "media/202001/83502020_790939728052100_8722930221304594803_n_17851720555825454.jpg",
+            "media/202001/80722679_161066098640877_6435046060413597225_n_17862573070650373.jpg",
+            "media/202001/83109844_493426174885156_8154047891507395798_n_18074576461198797.jpg",
+            "media/202001/81986000_175049763870941_7475192894201191843_n_17898644938429945.jpg",
+            "media/202001/81086490_508619146451823_2138832396355450942_n_18102931924101981.jpg",
+            "media/202001/81139041_601281840720389_27783400331078806_n_18089875276091699.jpg",
+            "media/202001/81563638_184606726265963_7643342600531777210_n_18124464949059393.jpg",
+            "media/202001/82902865_472108287016585_2105539652394950477_n_17844268603912419.jpg",
+            "media/202001/83255467_478174096466167_6944625429658040652_n_18049014067211654.jpg",
+            "media/202001/83370928_173799610693119_131878313820174403_n_17874452341538776.jpg",
+            "media/202001/bSiQBUCKAJDMywXQE4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_18019566625258572"
 		]
 	},
 	"Madrid, Spain": {
@@ -263,6 +451,15 @@ const countries= {
 			"media/202001/80689187_557380678149618_4868623562235775760_n_18071096677199290.jpg",
 			"media/202001/82692514_613059316177400_8154131091400945699_n_17883584188490496.mp4",
             "media/202001/MadridIrishBarVideo.jpg",
+            "media/202001/80535422_159444938685683_3490778469975612548_n_18125567920053231.jpg",
+            "media/202001/80697431_162851781646259_2394869717497738884_n_17908336111395697.jpg",
+            "media/202001/81733923_510233689625913_5481565552304662894_n_17949027730311361.jpg",
+            "media/202001/81643615_586054118843172_8524245575512370011_n_18090271003139523.jpg",
+            "media/202001/81635810_478788202784288_6114477427221564383_n_17937620302334102.jpg",
+            "media/202001/81662245_1257305224479486_3913228649113790348_n_18083173384158170.jpg",
+            "media/202001/81830771_156075975691421_7341080427572806876_n_17850995500803372.jpg",
+            "media/202001/82958300_485701468756925_2351878054175667218_n_17844055516923168.jpg",
+            "media/202001/80061400_172835983924583_6861578364211405598_n_18049411147211169.jpg"
 		]
 	},
 	"Punta Arenas, Chile": {
@@ -280,6 +477,15 @@ const countries= {
             "media/202001/PenguinVideo2.jpg",
             "media/202001/82908844_1509326849242046_1215346854901560567_n_17860979347669098.mp4",
             "media/202001/PenguinVideo3.jpg",
+            "media/202001/81568275_571982440320168_4868218930589993167_n_18101838268108666.jpg",
+            "media/202001/81329638_172775370633479_9055808447815230469_n_17868056698594900.jpg",
+            "media/202001/81038367_114783226719264_3884568452113000514_n_17850045796817794.jpg",
+            "media/202001/79695039_113762990157850_736857334416441129_n_17851658716788901.jpg",
+            "media/202001/80427890_163231448294891_7146714550258728220_n_17853861766750408.jpg",
+            "media/202001/83862863_176357923586828_2574482074873818979_n_17897484400434565.jpg",
+            "media/202001/80854128_1057373241277053_4168021347063674536_n_17898613633427688.jpg",
+            "media/202001/83282227_2420587658192055_3786274331927225466_n_17912293513387175.jpg",
+            "media/202001/83331355_480416185989447_3133241665080763571_n_17842844911930981.jpg"
 		]
 	},
 	"Puerto Natales, Chile": {
@@ -295,11 +501,30 @@ const countries= {
 			"media/202001/80836374_474408256820688_3021740911886215571_n_18004389100279669.jpg",
 			"media/202001/80517011_170593204322458_7652072666855376730_n_17862277000644295.jpg",
 			"media/202001/83188117_2479178925744588_3808849808991051661_n_17859505519684942.mp4",
-			"media/202001/PatagoniaHike.jpg"
+			"media/202001/PatagoniaHike.jpg",
+            "media/202001/82087469_547029262563021_2263042908555731284_n_18100510534108021.jpg",
+            "media/202001/81463156_204386480601593_344122046248807809_n_18121764199001280.jpg",
+            "media/202001/79833412_1046102869070123_7348935453467389656_n_17843237176900830.jpg",
+            "media/202001/79985971_153528836070024_773108008889985224_n_17863990120607690.jpg",
+            "media/202001/80755423_651429492331995_1677466481007759511_n_17905443349404920.jpg",
+            "media/202001/80710557_2659316604154079_5049080731651708777_n_18038396107232772.jpg",
+            "media/202001/81148774_565690727612376_324214929927772266_n_18101296357096483.jpg",
+            "media/202001/80069725_145948760158640_3088994864502236313_n_17866555264603505.jpg",
+            "media/202001/83543826_528470738026821_8767894520751031454_n_18099908734115390.jpg",
+            "media/202001/82226191_2358695514237022_4281626926592212889_n_18101440165104613.jpg",
+            "media/202001/80389028_1356398554541113_2777132005036182583_n_18052602820207928.jpg",
+            "media/202001/81649358_304811087146271_6089957333651061690_n_17850634669808694.jpg",
+            "media/202001/82566910_2804659449555654_5913526355264623245_n_17860653187661830.jpg",
+            "media/202001/82387032_215143272979287_8841690019404331439_n_17849965018817433.jpg",
+            "media/202001/82423422_3051848778374194_3333555168202663130_n_17881076851498127.jpg",
+            "media/202001/80645502_660836444686691_1865035402174597844_n_18102912070096778.jpg",
+            "media/202001/81437429_595443497681541_292046110189787779_n_17849904871821628.jpg",
+            "media/202001/80609497_2632056000209390_7674475703784807028_n_17864281792620725.jpg",
+			"media/202001/82763503_191885151952326_34882331736795298_n_17904481288407443.jpg"
 		]
 	},
 	"Colchagua, Chile": {
-		"Desc": "Chilean wine country - having backpacked through most of South America on a modest budget, we decided to take a break and indulge in some good old fashioned wine debauchery. We found a hotel that fashioned hotel rooms out of 25000 liter wooden barrels, the blended fragrance of oak and wine still lingering amongst them. The wine was delicious, and the food top notch! We drove from Santiago to the Colchagua valley stopping at viÃ±as Casa Silva and Maquis, and stayed at Cava Colchagua. The following day we visited the first vineyard in South America, started by a woman (Maria Luz), called Casa Marin in the San Antonio valley. Not only did she succeed in creating wine, but she did so in a region where it was said grapes will not grow. The following day we went to viÃ±as Matetic and Emiliana in the Casablanca valley, both of which we recommend. Drinking all this wine basking in the Chilean sun, I kept thinking about what Maria Luz said, if you are not being called crazy at one point or another you are probably not doing something right. #carolynkanhar #indianjonesandlaracroft",
+		"Desc": "Chilean wine country - having backpacked through most of South America on a modest budget, we decided to take a break and indulge in some good old fashioned wine debauchery. We found a hotel that fashioned hotel rooms out of 25000 liter wooden barrels, the blended fragrance of oak and wine still lingering amongst them. The wine was delicious, and the food top notch! We drove from Santiago to the Colchagua valley stopping at viÃ±as Casa Silva and Maquis, and stayed at Cava Colchagua. The following day we visited the first vineyard in South America, started by a woman (Maria Luz), called Casa Marin in the San Antonio valley. Not only did she succeed in creating wine, but she did so in a region where it was said grapes will not grow. The following day we went to viÃ±as Matetic and Emiliana in the Casablanca valley, both of which we recommend. Drinking all this wine basking in the Chilean sun, I kept thinking about what Maria Luz said, if you are not being called crazy at one point or another you are probably not doing something right. The regions of Casablanca, San Antonio and  Colchagua brought us some incredible views, food and mostly wine. Sustainable, organic and our favorite vineyard of world renowned white wines from Maria Luz at Casa Marin. Cools ocean winds and high mountain terrain equals delicious! #carolynkanhar #indianjonesandlaracroft",
         "Country": "Chile",
         "Images": [
 			"media/202001/79941789_109366493788173_4597888381351751316_n_17926891858357873.jpg",
@@ -311,7 +536,14 @@ const countries= {
 			"media/202001/80849040_151687552929891_347864506127337116_n_17869746412564263.jpg",
 			"media/202001/81902159_712333955961814_923146999203714033_n_17852296171763532.jpg",
 			"media/202001/80840145_494813271239498_4932619294514299228_n_17928903160350741.jpg",
-			"media/202001/81650786_843320112804898_493800491091993991_n_18123257671036694.jpg"
+			"media/202001/81650786_843320112804898_493800491091993991_n_18123257671036694.jpg",
+            "media/202001/79378197_517952892155412_1311176637531672243_n_17979432067292209.jpg",
+            "media/202001/81582115_2225672767533408_5009884323548709731_n_18085056649178069.jpg",
+            "media/202001/82890557_796036097562236_6262425927822597706_n_17899047949427114.jpg",
+            "media/202001/79638714_2726494297468646_1822710822756817988_n_17906939173394276.jpg",
+            "media/202001/80340433_546874329253089_250678198308487123_n_17895818818435653.jpg",
+            "media/202001/81434320_186505882470396_9092001364483749301_n_17923396693362430.jpg",
+            "media/202001/80385573_2780953098593930_7632410573456716730_n_17849671975814384.jpg"
 		]
 	},
 	"Valparaiso, Chile": {
@@ -327,11 +559,12 @@ const countries= {
 			"media/202001/81743466_103944287734373_4308611375973632449_n_17851305175780428.jpg",
 			"media/202001/80572297_115095816682658_5675599747675679813_n_17848107913845672.jpg",
 			"media/202001/80835841_2479544968971509_4883110404960750444_n_17880667456499375.jpg",
-			"media/202001/81931978_2771644619609506_4635268724933074200_n_18020083759251435.jpg"
+			"media/202001/81931978_2771644619609506_4635268724933074200_n_18020083759251435.jpg",
+            "media/202001/81191736_808430826289972_5156409548739952291_n_17901895510410801.jpg"
 		]
 	},
 	"San Pedro De Atacama, Chile": {
-		"Desc": "San Pedro De Atacama, Chile - an overnight bus from Arica got us to this unusual place, where the terrain looks Martian. After a couple day trips to remoter places we couldn&#039;t have been more appreciative of the parts of Earth that have trees, and rain. How the local French bakery managed to make the best croissant I have ever had, in this remote region, is a testament to the human spirit, and ofcourse the French! Planning a New year&#039;s Eve in these circumstances was  difficult, given that we&#039;ve been drifting wherever the road takes us. We are also terrible at making reservations. Carolyn intervened and decided to instead cook us our favorite Indian Chinese stir fry, and sent me off to buy a bottle of wine. What a delightful plan, and no reservations required. Carolyn has always stood by me, with her patience and her grace. She is the glue that holds all this together, and I feel quite lucky to have her. Needless to say, the food was delicious, and while eating, we ran into others that helped me start a little bon fire, notably &#064;lostinthehimalaya. We scavenged on the street for more tomato crates to burn, which reminded me of our Christmas tree blazes in New York. Sitting around the fire, engaged in conversation, it occurred to me how different each one us were, in our stories and in our passports. But when we looked at the stars, and tried to figure out where to go next, we were all the same. &#064;campoknits #CarolynKanhar",
+		"Desc": "San Pedro De Atacama, Chile - an overnight bus from Arica got us to this unusual place, where the terrain looks Martian. After a couple day trips to remoter places we couldn&#039;t have been more appreciative of the parts of Earth that have trees, and rain. How the local French bakery managed to make the best croissant I have ever had, in this remote region, is a testament to the human spirit, and ofcourse the French! Planning a New year&#039;s Eve in these circumstances was  difficult, given that we&#039;ve been drifting wherever the road takes us. We are also terrible at making reservations. Carolyn intervened and decided to instead cook us our favorite Indian Chinese stir fry, and sent me off to buy a bottle of wine. What a delightful plan, and no reservations required. Carolyn has always stood by me, with her patience and her grace. She is the glue that holds all this together, and I feel quite lucky to have her. Needless to say, the food was delicious, and while eating, we ran into others that helped me start a little bon fire, notably &#064;lostinthehimalaya. We scavenged on the street for more tomato crates to burn, which reminded me of our Christmas tree blazes in New York. Sitting around the fire, engaged in conversation, it occurred to me how different each one us were, in our stories and in our passports. But when we looked at the stars, and tried to figure out where to go next, we were all the same.  The Atacama- San Pedro,  La Valle de la Luna y La Muerte, and the Tatio Geyser Field and Termale ( at 5 in the morning to watch the sun come up over the thermal steam) Freezing cold until the sun graced us with her glorious warmth. The desert is gorgeous and unforgiving. campoknits #CarolynKanhar",
         "Country": "Chile",
         "Images": [
 			"media/202001/81979990_452566355423633_8914618170887239197_n_17908324999383701.jpg",
@@ -343,7 +576,17 @@ const countries= {
 			"media/202001/81417792_590063891831291_5918829467236998561_n_17867310061563038.jpg",
 			"media/202001/79265117_510469899579715_4009896834840133333_n_17851379224777089.jpg",
 			"media/202001/79264806_1021533744875011_189309598125397564_n_17845728238847563.jpg",
-			"media/202001/80585418_605596823559764_6721701772712731700_n_18088489363188292.jpg"
+			"media/202001/80585418_605596823559764_6721701772712731700_n_18088489363188292.jpg",
+            "media/202001/79881156_1385764184948613_8114633175646278199_n_17869204978561846.jpg",
+            "media/202001/81189239_616165762491168_2783392602353369086_n_17879991967486174.jpg",
+            "media/202001/79965208_1791627617636850_7916999071331779015_n_17865859429602639.jpg",
+            "media/202001/79376416_481606555826887_1372225856341317972_n_18123237640058957.jpg",
+            "media/202001/81837713_770431066786975_1004711302907794479_n_18088510252094544.jpg",
+            "media/202001/81893085_607156283395280_8815871376526411070_n_18044673979219217.jpg",
+            "media/202001/80333816_2370737536501417_3781852511604356719_n_17850740668768143.jpg",
+            "media/202001/79813068_131995871600502_1923844793586875635_n_17905150984406028.jpg",
+            "media/202001/79600048_162650251733863_7092048241315397916_n_18037756741237137.jpg",
+            "media/202001/79461653_192202151905762_441705608400376143_n_18110527792075887.jpg"
 		]
 	},
 	"Arica, Chile": {
@@ -361,6 +604,15 @@ const countries= {
 			"media/201912/80370129_150989499537145_7219533780215554661_n_17856288217702300.jpg",
 			"media/201912/82347215_2468801600041572_3588950741657425774_n_18001852957276434.mp4",
             "media/201912/DashToBoardArica.jpg",
+            "media/202001/81942661_467902430795665_4907636502297439690_n_17851471960765845.jpg",
+            "media/202001/80118772_211544366548442_6564483311005550832_n_17860940299630064.jpg",
+            "media/202001/80389509_2079117452191198_7265341465785357237_n_18045123736218124.jpg",
+            "media/202001/79389894_524272708180989_9053475176544027176_n_18123022390007943.jpg",
+            "media/202001/79244694_169088831124928_6199909916955187273_n_18071274529168856.jpg",
+            "media/202001/81777387_180876513062837_1638868150543193691_n_18122716966052008.jpg",
+            "media/202001/80568188_104729804316834_6323283387881220164_n_17847192472857980.jpg",
+            "media/202001/82514630_1350122211857771_2045067163384795993_n_17848977253834319.jpg",
+			"media/201912/79374456_762681020875430_4310506909672453528_n_18080367370154350.jpg"
 		]
 	},
 	"Lake Titicaca, Puno": {
