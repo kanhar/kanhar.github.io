@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Kanhar Munshi | Awards and publications</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            document.querySelector("#main-header").classList.toggle("show");
+            
+            $.ajax({
+                url: "header.inc.html", success: function (result) {
+                    $("#main-header").html(result);
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -17,28 +29,7 @@
 
     <!-- Header: main-header -->
     <header id="main-header" class="pl-1">
-        <div>
-            <a href="#" class="logo-text">kanhar<br /> munshi</a>
-        </div>
-        <div>
-            <span>photography and film</span>
-        </div>
-        <ul>
-            <li><a href="travel.html">Travel</a></li>
-            <li><a href="video.html">Video</a></li>
-            <li><a href="#" class="active">Awards | Publications</a></li>
-            <li><a href="contact.html">About | Contact</a></li>
-        </ul>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#">Share</a>
-        </div>
-        <div>
-            <span>&copy; Kanhar Munshi. All rights reserved.</span>
-        </div>
+
     </header>
 
     <!-- Section: awards -->
@@ -90,7 +81,5 @@
         </div>
     </section>
 
-    <!-- script -->
-    <script src="js/script.js"></script>
 </body>
 </html>
