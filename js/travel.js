@@ -2,7 +2,8 @@
 const countries= {
 	"Twin Falls, Idaho": {
 		"Desc": "Twin Falls, Idaho - Besides potatoes, Idaho has some remarkable waterfalls, and a refreshing greenery that welcomed us as we drove up from a very arid part of Utah. The downtown is full of character and has a nice river walk, with restaurants that have moved to socially distanced outdoor seating on cordoned off portions of the road. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+		"Country": "US",
+        "Images": [
             "media/202006/104124263_3275897925763343_6838222904592464206_n_17849027300154848.jpg",
 			"media/202006/104125340_2389917264643039_5598228776842334124_n_17893055698527937.jpg",
 			"media/202006/104214808_114533623437871_6622390850053237469_n_17848314428170604.jpg",
@@ -18,7 +19,8 @@ const countries= {
 	},
 	"Moab, Utah": {
 		"Desc": "Moab, Utah - The gateway to Arches National Park, Moab also has a mysterious and unusual source of delicious ice cold water pouring out of a 100 foot rock face, called the River spring. Later named the Matrimony Spring after locals found out that folks that drink from it, get married to those they drink with. We filled up our bottles of water and drank to a happier world, overlooking some fine Martian views. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/202006/103934164_582402005798284_1849378359130609614_n_17877997846686592.jpg",
 			"media/202006/103980674_592704294615316_4613333124275414829_n_17844548087213363.jpg",
 			"media/202006/104418818_605765876724767_2168858012537210886_n_18121961533105719.jpg",
@@ -34,7 +36,8 @@ const countries= {
 	},
 	"Pagosa Springs, Colorado": {
 		"Desc": "Pagosa Springs, Colorado - We had the privilege to meet Tom and Sarah, in their home surrounded by the San Juan mountains. Learning about the techniques by which they&#039;ve cultivated the land, and become self sufficient for both energy and food, remains to be one of the most inspiring things we&#039;ve seen in our travels. We hope to revisit and are inspired to learn and live a more sustainable life. #carolynkanhar",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/202006/104177690_283525483003562_3437055318567665355_n_18033346366270514.jpg",
 			"media/202006/104383761_106449734375327_5504193330303048047_n_17843615144243400.jpg",
 			"media/202006/104165682_1616894568465021_4933858462706670804_n_18148498357001129.jpg",
@@ -47,7 +50,8 @@ const countries= {
 	},
 	"Truth or Consequences, New Mexico": {
 		"Desc": "Truth or Consequences, New Mexico - Named after a radio show, this town is an unusual as they come! But the hot springs right on the Rio Grande make it worth visiting, the best of all we have so far been to. #carolynkanhar",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/202006/103315406_110624377209022_7206281783861734072_n_17860613068954537.jpg",
 			"media/202006/103716302_644166676176428_6855640162689145393_n_17865222934893129.jpg",
 			"media/202006/104109251_971434699972832_6275165988418815589_n_17880567406649780.jpg",
@@ -58,7 +62,8 @@ const countries= {
 	},
 	"Portland, Maine": {
 		"Desc": "Portland, Maine - Where we spent two months in quarantine, studying for and interviewing virtually, in the middle of some sort of a global pandemic. We cooked, dined, danced, frisbee&#039;d, drank, and smoked most of the town&#039;s products in ways that would befit an end of the world event. The world however didn&#039;t end. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/202006/82140990_164880568352110_5048231903775474366_n_18058450378234798.jpg",
 			"media/202006/103443263_131809838540201_1533739378105019984_n_18097739602166424.jpg",
 			"media/202006/103153850_1192571671096155_6146841630837699092_n_17843410079214494.jpg",
@@ -72,7 +77,8 @@ const countries= {
 	},
 	"Marfa, Texas": {
 		"Desc": "Marfa, Texas - The west of Texas, Marfa feels like the town of San Pedro De Atacama in Chile, a rather small art colony that has good art but even better food. The Al Campo winery and bar, offers rather creative and delicious fare, which feels all the more debauch in the middle of a desert. The Prada art installation seems to have become a recent Instagram sensation but doesn&#039;t offer much to write home about. The town is famous for...well it isn&#039;t entirely clear #carolynkanhar",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/202006/81662804_591610581476834_3178720125780365060_n_17865025585886051.jpg",
 			"media/202006/103964756_879759965856574_6932680088376043561_n_18039958867255550.jpg",
 			"media/202006/103535455_2571950399801398_1339463540903149787_n_17875957180722830.jpg",
@@ -87,7 +93,8 @@ const countries= {
 	},
 	"Kochi, Kerala": {
 		"Desc": "Kochi, Kerala: The many complexities of India find a natural equilibrium here, and if ever there is a template for India to be restored to its original grace, it would be Kerala. Referred to often as â€˜Gods own countryâ€™ the Keralans celebrate more festivals than anywhere else in the world, as we discovered stumbling in short succession following an elephant march into a temple full of dancers dressed in peacock feathers, followed by a more solemn Portuguese mass, with a Muslim prayer happening on the sidelines. The average Keralan downs a good 9 gallons of liquor each year, twice that of the average in New Hampshire. The local moonshine here is the coconut toddy, the ultimate elixir of life, liberty, and sustainable agriculture, sapped from a palm tree, the sap distills itself in 2 hours to have 4% alcohol and by night time it&#039;s a stiff dose of 9% sweet and sour goodness that must be had fresh, fermented by natural yeast in the air, this may very well be God&#039;s own drink. It opens with a deliciously lush fat rich palm flavor, and serenades with a sweet and sour yogurt&#039;ish kick - with notes of lychee, grapefruit and white wine. The elixir of youth and frivolity â€¦this beverage could change the world. And probably will once they figure out how to not let it turn to vinegar after 16 hours of all natural organic fermentation. The stakes are high, but the Keralans are up to the challenge. The once nascent tourism industry has quadrupled in only a few years, with the advent of the internet as modern tourists fatigued with the chaos of India, let Instagram lead them into the blissfulness of Kerala. The flavors here are original, but never without a dash of coconut, mustard seeds, and turmeric. A full 8 Americans cents allows one to board a ferry to hop onto any island on the nearby luscious backwaters. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "India",
+        "Images": [
 			"media/202003/88200724_214775729927376_7998703320516527320_n_17907107089422525.jpg",
 			"media/202003/88458005_923075568147905_8329785424100763798_n_17868097003641300.jpg",
 			"media/202003/87425087_228284928345325_3611686047606300207_n_18092037511176475.jpg",
@@ -102,7 +109,8 @@ const countries= {
 	},
 	"Pondicherry, India": {
 		"Desc": "Pondicherry, Tamil Nadu, India: The best of the Indian South shaped robustly by a 400 year old French presence, creates a blend that is as much New Orleanesque as it is Indian. Literacy rates here are some of the highest in India, as is almost every statistically measurable measure of gender equality â€“ scooting through the streets in motorbikes without helmets, smoking hand rolled bidis (cigarillos), the woman of this town, lead the way for the rest of India to follow. Fine French cafÃ©s and fresh croissants are in abundance â€“ as are the creole prawn and crab risotto with blended curry leaf and a dash of turmeric. The New Orleans styled Second Line, is instead a â€˜Second in Lineâ€™ Elephant march, with an Elephant walking a full mile from the edge of town to a temple in the center, and the town walks right behind it â€“ often with drummers accompanying the procession. The Elephant blesses all that are brave enough to feed it a nice cucumber. Jesus statues in local churches are often adorned with garlands of flowers, and the ice cream often comes in a green chilli flavor. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "India",
+        "Images": [
 			"media/202003/88982667_2510383809211562_8653658750091549072_n_17903895499429681.jpg",
 			"media/202003/88374794_198464231247997_8800529003949132219_n_17872885096599737.jpg",
 			"media/202003/89084027_489575141717742_1381837046150502887_n_17915629891383745.jpg",
@@ -118,7 +126,8 @@ const countries= {
 	},
 	"Jaipur, India": {
 		"Desc": "Jaipur, Rajasthan, India - The Spartans of India, the Rajasthanis (Rajputs) nearly repulsed every Muslim (Mughal) invasion, notable of which was when the then Mughal emperor of India (Aurangzeb), invaded in 1680 and took over, only to then suffer through an extensive guerrilla warfare campaign that messed up his takeover and taxation plans. He retreated, but then came back with three separate armies, hoping to tax all non Muslims through a tax called Jizya, but this tiny princely state wouldn&#039;t have any of it and fought Spartan style repelling an army ten times it&#039;s size. The locals here are proud of this history, and have held onto their identity, in ways other parts of India haven&#039;t, the food here is often deliciously vegetarian, the architecture here has relatively lesser Mughal influence, and the temples here are numerous and outstanding, although newer in build as they kept getting destroyed with each invasion. The Panna Meena Ka Kund (water stairs) looks like they were designed by M.C.Escher, and are worth a quick visit. Most palaces are designed functionally as forts, with escape tunnels connecting to other forts, should they ever fall. The yogurt here is made with water buffalo milk, twice the fat and protein content of cow&#039;s milk, which serves as the base for making butter, ghee, paneer (cottage cheese) and lassi (blended yogurt with ice and a touch of saffron with some cream on top). The sarson ka saag, a dish made with pureed mustard greens, and an over abundance of ghee, is a vegetarians delight, like a sauteed spinach on steroids. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "India",
+        "Images": [
 			"media/202002/84763413_636525910439123_1342791397659069084_n_18104652103117851.jpg",
 			"media/202002/84824635_244382016585122_6739454208547362049_n_18130210837042996.jpg",
 			"media/202002/84538364_103535097834057_2499627964544077313_n_18116808307078458.jpg",
@@ -132,7 +141,8 @@ const countries= {
 	},
 	"Istanbul, Turkey": {
 		"Desc": "Istanbul, Turkey - Machine gun toting commandos waiting patiently in line for their afternoon kebab, retired men smoking hookah, an abundance of freshly squeezed pomegranate juice and a relative scarcity of liquor greeted us in Istanbul, a good mid point between the discipline of Europe and the chaos of India. We hopped over the Bosphoros on a commuter ferry that could just have well been the Staten Island ferry in NY, except that we were served several hot cups of Sahlep, a tea made out of the tubers of orchids. The food here was good, but not much different from what can be found at most Turkish restaurants globally - the one standout dish and restaurant that blew us and some mussels out of the water was the &#039;Midye Dolma&#039;, mussels stuffed with aromatic rice, at the Midyeci Ahmet restaurant. The mosques turned churches turned mosques were of some interest, the Turkish baths were less baths and more like glorified steam rooms, and the traffic started to resemble that in India, we walked around listening to afternoon and evening prayers in Arabic blaring loudly from what appeared to be competing mosques, absorbing as much of the architecture as we could. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Turkey",
+        "Images": [
 			"media/202001/83893813_257415535237243_4402461659325144927_n_18126178900004540.jpg",
 			"media/202001/81813253_615927302306608_3413128754859400321_n_17855025940745330.jpg",
 			"media/202001/82573386_184174602966911_8834067831584635415_n_17862639823655243.jpg",
@@ -147,7 +157,8 @@ const countries= {
 	},
 	"Budapest, Hungary": {
 		"Desc": "Budapest, Hungary - hipsters without knowing it, Budapest is soon to become the Bushwick of Europe, if it isn&#039;t already. The Hungarians quashed any pre-concieved notions I may have harbored about their culinary senses, with their food and wine that was better than any I&#039;ve had in all of Europe. Strong statement but one I don&#039;t make lightly, this place is a culinary dream, which finds an eclectic fusion, between the presentation of the west, and the spices of the east. The proprietors of KÃ¡dÃ¡r Ã‰tkezde, may not have heard of internet reviews yet, but the internet is going nuts with the food they serve. The bÃ£cksai pork risotto, their fat rich soups, and the chicken paprikash drizzled in a paprika cream gravy that could just as easily pass as Mexican, delighted our souls and our senses. Twice in separate restaurants, random folks stopped at our table, asking if we needed help translating the menu, and welcoming us to Hungary. The cab drivers, the waiters, the postal workers that helped guide me through their favorite stamps to buy, and of course my fellow bar patrons, seemed as happy as could be. The dive bars here are called ruin bars, a testament to their being in the ruins of Soviet era buildings, fitted with as many funky colored lights as possible, and patrons smoking hookah in repurposed bathtubs. Bushwick may just have been relegated to second place. Meanwhile, the Hungarian wine industry, destroyed by the Soviets, is on the upswing, the KÃ©kfrankos grape rivals the French Carmenere grape, and at 8$ a bottle I wasn&#039;t holding back #CarolynKanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Hungary",        
+        "Images": [
 			"media/202001/82383424_510590322922874_3968208657414513111_n_17863184872630761.jpg",
 			"media/202001/80715740_726285201235224_3979631343509007614_n_17857413190732280.jpg",
 			"media/202001/82945951_480793442473048_4565258461668299565_n_17899591147430424.jpg",
@@ -162,7 +173,8 @@ const countries= {
 	},
 	"Vienna, Austria": {
 		"Desc": "Vienna, Austria - the Belvedare palace to see some Klimt, opera at the SchÃ¶nbrunn palace, St.Stephens cathedral and ultra fast subway rides, were notable highlights, but overall we got the impression that, the Vanderbilt Estate in Asheville, North Carolina could give Vienna a run for it&#039;s money. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Austria", 
+        "Images": [
 			"media/202001/80879573_2257245097904226_8228896431738112870_n_17844522613936889.jpg",
 			"media/202001/81386090_175611780190881_3371746381055366780_n_17844785935904799.jpg",
 			"media/202001/82053578_161283165174872_2808097463863250180_n_17848414036858589.jpg",
@@ -177,7 +189,8 @@ const countries= {
 	},
 	"Prague, Czechia": {
 		"Desc": "Prague, Czechia - probably one of the few remaining European countries that are affordable, with a cultural and political history thats quite remarkable. We loved the food, the people, and of course the Pilsner Urquell. We ate at this place called Lokal which we recommend highly - their food is authentic and appetizers and beers average 3$, their version of fried cheese is breaded quite unlike the fried cheese you can find in the northern Himalayas.  On our way down from Charles Bridge we stumbled into an ancient looking pub called the Tavern U Krale Brabantskeho, established 1375. The food was good all around, and the Ubers prompt. Twice we were picked up in an E-class Mercedes for a 15 minute trip that cost 4$ - how the economics of all that worked out is still unclear to me. The Prague castle is the largest castle complex in the world, and worth going to, followed by a walk down to the bridge and a quick river cruise. Overall, we felt like we were in a fairytale kingdom where the people were a friendly sort, and happy to see us. Strongly recommend folks visit, and if they do stay the extra day. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Czechia", 
+        "Images": [
 			"media/202001/81796000_183173329435219_6136666101403903864_n_18087285943130140.jpg",
 			"media/202001/79590874_765293643979750_308343794837681924_n_17870872642562838.jpg",
 			"media/202001/81245776_190608012337305_7962054300518904583_n_18125472205043556.jpg",
@@ -192,7 +205,8 @@ const countries= {
 	},
 	"Berlin, Germany": {
 		"Desc": "Berlin, Germany - a 6 hour train from Amsterdam we had high hopes for this town. Instead we wished we&#039;d avoided it entirely. The folks we encountered here, could have made the Saudis look friendly. After spending a full euro to use the public restroom, we retreated to our hotel room with much haste, researching if we could take an earlier train outta here. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Germany",
+        "Images": [
 			"media/202001/81796374_484635488920953_7714862570761890403_n_17855733949741510.jpg",
 			"media/202001/81969581_616601455796671_3244573493913489598_n_17948410549310647.jpg",
 			"media/202001/81715796_153978879372761_1927152523820598042_n_17852858593801250.jpg",
@@ -204,7 +218,8 @@ const countries= {
 	},
 	"Amsterdam, Netherlands": {
 		"Desc": "Amsterdam, Netherlands ever since 1602 when the Dutch East India company began trading with the Indians, inadvertently altering the socio economic and political landscape of India forever, I have been intrigued by the Dutch! The notion of the free market, and free market trade many argue, led to the industrialization of the west before the east. Masters of free market trade, the dutch didn&#039;t disappoint me when in 2010 social conservatives led a movement to ban the sale of psychedelic mushrooms, previously legal, and succeeded.  The free markets responded quickly by instead selling psychedelic truffles with of course the same active ingredient as the now banned mushrooms. As we are seeing in all our travels, the world is getting more connected, and information more ubiquitous, and the power of government to regulate it&#039;s people is continuing to diminish. Very little else could make me happier. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Netherlands",
+        "Images": [
 			"media/202001/82130734_539102366950803_5031787863259790762_n_17930103625350939.jpg",
 			"media/202001/81212483_179474676472017_5437340363256720734_n_17842602079942963.jpg",
 			"media/202001/81588141_509995876315975_8480997175546368541_n_17898048628432084.jpg",
@@ -219,7 +234,8 @@ const countries= {
 	},
 	"Barcelona, Spain": {
 		"Desc": "Barcelona, Spain - the architecture here is quite stunning - the cathedral of Barcelona ranks right up there with the Cathedral in Mexico city. Gaudi&#039;s Sagrada Familia, a 100 years in the making, is a more recent build but also quite unique. The tapas style food allowed us to to try many different dishes in smaller portions, a theme I wish more cuisines offered. We cruised through Barcelona almost as if on auto pilot, our confidence arising again from it&#039;s similarity to New York! #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Spain",
+        "Images": [
 			"media/202001/82938407_845843432529691_4468698740839773127_n_17846160109887458.jpg",
 			"media/202001/83608918_117451956451295_1538816813224639934_n_18040745770234530.jpg",
 			"media/202001/83039795_158349545458171_970162650039500475_n_18084467218153544.jpg",
@@ -234,7 +250,8 @@ const countries= {
 	},
 	"Madrid, Spain": {
 		"Desc": "Madrid, Spain - transitioning from a warm South American summer to a bleak winter in Madrid, we decided to invest our time and resources in heated indoor places. We went to the Reina Sofia and the Prado  museums, both of which have free entry after 7. But the highlight of our trip was being able to meet &#064;lu.luuuuuuu at a cozy little Irish bar listening to some fine Celtic music. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Spain",
+        "Images": [
 			"media/202001/83058250_174208330466293_4323037971258150903_n_17861163010665017.jpg",
 			"media/202001/82729813_317916012466902_6423193745117512054_n_17892985453451034.jpg",
 			"media/202001/80614843_2665021730252847_768906559521543174_n_17843414896927090.jpg",
@@ -250,7 +267,8 @@ const countries= {
 	},
 	"Punta Arenas, Chile": {
 		"Desc": "Punta Arenas, Chile - The capital city of the southernmost region in Chile, is used today as a base for excursions to Antarctica. Putting our plans to visit Antarctica on hold, we instead used it as a base to explore Isla Magdalena, home to over 30000 penguins. Our last stop before we head to Europe. #carolynkanhar #indianjonesandlaracroft.",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/202001/80577637_185394085944076_7668963124141032202_n_18022546612247137.jpg",
 			"media/202001/82899521_601941037302218_7039516054143178696_n_18020584846255071.mp4",
             "media/202001/PenguinVideo1.jpg",
@@ -266,7 +284,8 @@ const countries= {
 	},
 	"Puerto Natales, Chile": {
 		"Desc": "Puerto Natales, Chile - Patagonia, the ultimate hikers destination, is as obscure a notion as it is remote. Anything that is far enough south from civilization in South America can probably  be considered Patagonia. People book the few lodging options here a year in advance, whereas our wandering soles can&#039;t handle more than a days prep. The social protests in Santiago however resulted in cancellations that allowed us to find a campsite near Lake Amargo. The absurdity of having Berlin Techno music playing at base camp in the remotest part of South America, filled with more Europeans per square mile than in Europe is still of some amusement to us. I got the sense that most people there were on a holy quest to Patagonia (whatever that means) and had spent a good year preparing for it. We were probably the only two hikers that wore jeans, and carried two bottles of wine we intended to drink. Our priorities misaligned with the rest of the hikers, we enjoyed our wine, and made it back to town. The hostel in Puerto Natales, called Red Point Patagonia, run by Ruth was arguably the best hostel we have ever stayed in. That she was able to run the hostel while also caring for her 4 month old son, was much more remarkable than anything else we saw in Patagonia. I baked her a fresh loaf of bread, and we feasted on it sharing as many stories as we could. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/202001/82452594_2359969827611339_7726907592801387266_n_17875458784520489.jpg",
 			"media/202001/82141645_149921663106926_3577241910793942646_n_17870194564571668.jpg",
 			"media/202001/81788395_828176044272358_4100856005534975710_n_18073444789175341.jpg",
@@ -281,7 +300,8 @@ const countries= {
 	},
 	"Colchagua, Chile": {
 		"Desc": "Chilean wine country - having backpacked through most of South America on a modest budget, we decided to take a break and indulge in some good old fashioned wine debauchery. We found a hotel that fashioned hotel rooms out of 25000 liter wooden barrels, the blended fragrance of oak and wine still lingering amongst them. The wine was delicious, and the food top notch! We drove from Santiago to the Colchagua valley stopping at viÃ±as Casa Silva and Maquis, and stayed at Cava Colchagua. The following day we visited the first vineyard in South America, started by a woman (Maria Luz), called Casa Marin in the San Antonio valley. Not only did she succeed in creating wine, but she did so in a region where it was said grapes will not grow. The following day we went to viÃ±as Matetic and Emiliana in the Casablanca valley, both of which we recommend. Drinking all this wine basking in the Chilean sun, I kept thinking about what Maria Luz said, if you are not being called crazy at one point or another you are probably not doing something right. #carolynkanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/202001/79941789_109366493788173_4597888381351751316_n_17926891858357873.jpg",
 			"media/202001/82339772_2608701196107203_5621650514095833999_n_17858054425700597.jpg",
 			"media/202001/81911329_543720449689725_9015113656826865283_n_17858377234716678.jpg",
@@ -296,7 +316,8 @@ const countries= {
 	},
 	"Valparaiso, Chile": {
 		"Desc": "Santiago, and Valparaiso, Chile - the social unrest here dominating most of the news and the conversation before we arrived, we braced for the worst. Instead on arrival, we felt like we were in New York. The energy in Santiago is vibrant, the exchange rate strong, and for probably the first time in our entire travels I spent 3 full American dollars for a cup of coffee. The architecture, layout, museums of Valparaiso are a contrast to Santiago of course, but in ways similar to how San Fransisco is to New York. We navigated confidently through both cities thinking we are in America, and for the most part our instincts were right. Graffiti was everywhere similar to when the good folks of Occupy Wall Street had taken over my favorite plaza in downtown Manhattan. One keen observer even felt the need to correct a spelling error, with a smiley. That little act seemed to sum up the city&#039;s unrest best. #CarolynKanhar",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/202001/80861841_593811308120070_2459969661229357608_n_17896878688433722.jpg",
 			"media/202001/82009032_1838990982892724_1529560584020955799_n_17858550778672221.jpg",
 			"media/202001/80805628_170518687666125_1518574787182372147_n_17857980847698268.jpg",
@@ -311,7 +332,8 @@ const countries= {
 	},
 	"San Pedro De Atacama, Chile": {
 		"Desc": "San Pedro De Atacama, Chile - an overnight bus from Arica got us to this unusual place, where the terrain looks Martian. After a couple day trips to remoter places we couldn&#039;t have been more appreciative of the parts of Earth that have trees, and rain. How the local French bakery managed to make the best croissant I have ever had, in this remote region, is a testament to the human spirit, and ofcourse the French! Planning a New year&#039;s Eve in these circumstances was  difficult, given that we&#039;ve been drifting wherever the road takes us. We are also terrible at making reservations. Carolyn intervened and decided to instead cook us our favorite Indian Chinese stir fry, and sent me off to buy a bottle of wine. What a delightful plan, and no reservations required. Carolyn has always stood by me, with her patience and her grace. She is the glue that holds all this together, and I feel quite lucky to have her. Needless to say, the food was delicious, and while eating, we ran into others that helped me start a little bon fire, notably &#064;lostinthehimalaya. We scavenged on the street for more tomato crates to burn, which reminded me of our Christmas tree blazes in New York. Sitting around the fire, engaged in conversation, it occurred to me how different each one us were, in our stories and in our passports. But when we looked at the stars, and tried to figure out where to go next, we were all the same. &#064;campoknits #CarolynKanhar",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/202001/81979990_452566355423633_8914618170887239197_n_17908324999383701.jpg",
 			"media/202001/80509845_161229078489522_4482228819797607974_n_17856571606701751.jpg",
 			"media/202001/79530751_174035383672864_8009424233448443168_n_17977957885288205.jpg",
@@ -326,7 +348,8 @@ const countries= {
 	},
 	"Arica, Chile": {
 		"Desc": "Arica, Chile - our plans to visit La Paz, Bolivia foiled due to visa complexities, we decided to head south, and make a run for the Chilean border instead. En route we stopped at a frontier town called Tacna in Peru, which looked like a little town in Italy - to add to the confusion, they served us fresh bread and butter at a restaurant, unlike any other town in Peru. A quick Wikipedia search confirmed that Tacna saw a wave of Italian immigration in the 1850s and that even today almost half the city has Italian last names. How a little Peruvian frontier town became Italian continues to be of some amusement to us, but rest assured the bread and butter were delicious and much missed. The next day we made a run for the Chilean border, in a collectivo, 6 people to a car - with Carolyn and I both sharing the front seat. We drove 40 minutes to the border through barren desert country, and somehow made it through immigration. All of us in the car cheered raucously when we entered Chile. And as we continued driving on towards Arica, the closest city to the Chilean border, we saw something that we didn&#039;t think was possible, the landscape now had the desert meeting the ocean, and there wasnt a single tree in sight. Somebody in the car mentioned that this was the dryest place on Earth, and that some parts of the Atacama desert hadn&#039;t seen rain in 400 years. #CarolynKanhar &#064;campoknits",
-		"Images": [
+        "Country": "Chile",
+        "Images": [
 			"media/201912/81171450_143266120425811_4728852679472151760_n_17925933217355744.jpg",
 			"media/201912/79367469_2518609748417145_5134644933095331306_n_18121764265023038.jpg",
 			"media/201912/79372038_165264094709438_1526855967661438941_n_17880716482478355.jpg",
@@ -342,7 +365,8 @@ const countries= {
 	},
 	"Lake Titicaca, Puno": {
 		"Desc": "Lake Titicaca, Puno - the highest elevation lake is for the most part like any other lake in the world, but for their floating islands built by the Uru. Libertarians before that word existed they decided many years ago to escape the taxes of the Incans and float away where they couldn&#039;t be found. Their construction fascinated us, and is essentially made of tortura reeds some with active root systems, and others that are dried and layered on top of the primary root system. The roots provide buoyancy and the dried reeds protect the roots from rot. The islands last 30 years but require maintenance or new layers of dried reeds to replace the ones that have rotted every month. Most of their food is fish from their lake, and a part of the tortura reed that is edible. Growing up in Kashmir, I had always heard of floating islands on the Dal Lake, but I was never able to stand on one, and I think principally we (the Kashmiris) would use a similar concept (using common reed vs tortura reed for construction, and Poplar poles to anchor vs Eucalyptus poles ) to make a 4 by 4 square metre island, and grow vegetables on it, and revisit later to harvest them. The Dal Lake in Kashmir is also much smaller at 18 square kilometres vs 8300 in Lake Titicaca, which would explain why these floating islands couldn&#039;t have been used for tax evasion, and didn&#039;t get larger than small vegtable gardens. But to know that Kashmir and Peru are connected in this strange way made me incredibly happy. The world is getting much more connected, and we are discovering that we are mostly all alike. #CarolynKanhar #indianjonesandlaracroft &#064;campoknits",
-		"Images": [
+        "Country": "Peru",
+        "Images": [
 			"media/201912/80713625_617304882355077_5022300690886835275_n_17900473873415646.jpg",
 			"media/201912/79880881_470317203624984_4647166231303837734_n_17875940182513332.jpg",
 			"media/201912/79374456_188642205518662_7767129475515720617_n_17880631486489489.jpg",
@@ -357,7 +381,8 @@ const countries= {
 	},
 	"Ayavuri, Peru": {
 		"Desc": "Having made our long winded quest to Machu Picchu, we felt more touristy than ever. And having a lot of driving ahead of us to the south of Peru, we decided to stop by some smaller towns. We ended up stopping at Ayavuri, which we liked, Sicuani (which we didn&#039;t like), Combapata and Checacupe. We saw a lot of folks looking for a lift, and after some discussion we decided to pick up only a few people, going in the same direction. This was probably one of the best decisions we have made the entire trip. Our Spanish learning accelerated as a result, and we also picked up some Quechua slang. One of the girls we picked up told us to go to Palomoyo mountain instead of Rainbow mountain, because of the weather. A tip that saved us a lot of trouble. We picked up a grandmother that was over 80 carrying a 20 pound bag, two girls that had harvested more alfafa than our trunk could fit, that couldn&#039;t have been more than 10 years old and a whole lot of other farmers looking for a ride to their home, often times 10 or 20 miles from where their farm is. At one point we reckon half the mountain had been in our car at one point or another, listening to an unusual mix of kashmiri folk music and Carolyn&#039;s wedding playlist. #CarolynKanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Peru",
+        "Images": [
 			"media/201912/79438254_188806472255248_5670717985019268122_n_17977473025295788.jpg",
 			"media/201912/80369125_1788619787948751_3612520876452935337_n_17874461551517442.jpg",
 			"media/201912/79688578_2569872783285639_8860798198980413715_n_17898460138424686.jpg",
@@ -372,7 +397,8 @@ const countries= {
 	},
 	"Sacred Valley, Peru": {
 		"Desc": "Sacred Valley, Cusco, getting to Machu Picchu on a budget is a logistical challenge like no other. The government tries every way it can to take every dollar from you, which is the exact opposite behavior of the local people who have not once overcharged us. We decided to not take the tourist train (at almost 400$ a ticket ) and chart our own path to this remote place. Renting a car, was strangely cheap, and I was soon to find out why - the roads are terrible, and a 27 mile trip can take over 5 slow and windy hours. Luckily for us, we stumbled into something we hadn&#039;t heard about on our way over, the Sacred Valley which contains all sort of little treasures, and of course Llamas. So many Llamas! We visited a little Valley called Moray, which the Incans converted into a crop experimentation site, each bed served as a test bed for a different crop, the temperature gradient between the lowest and highest bed on some days being almost 15 Celsius. We stopped at a local restaurant, which was really a nice woman&#039;s house. The food was simple but delicious. A few more hours of driving later we found the Moras Salt Mines, and a few hours later we ended up in Santa Teresa, where we didn&#039;t waste much time before jumping into the Cocalmayo Hot Spring. Refreshed we went to our hotel and a kind lady offered to make us dinner. So there we were overlooking the Urubamba river feasting on a delicious Loma Soltado, wondering where on Earth we had ended up. And how despite a full day of travel, we still had ahead of us, a 25 minute drive to the next town (hidroelectica), a 3 hour walk over train tracks to the next town (aguas Caliente) where no car can go, and then a 2 hour uphill walk before we can find this practically unreachable wonder of the world. #CarolynKanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Peru",
+        "Images": [
 			"media/201912/78904907_261422528166055_2382693134241675758_n_17861897281622202.jpg",
 			"media/201912/76786461_1001758016848054_4773840972688812728_n_17856570283677157.jpg",
 			"media/201912/79308292_859511574506397_3505543040260428117_n_17845947802854600.jpg",
@@ -387,7 +413,8 @@ const countries= {
 	},
 	"Cusco, Peru": {
 		"Desc": "Cusco, Peru - we landed here flying straight of Lima. Gaining 3500 metres of elevation in an hour is an amateur mistake, but we made it anyway, and learned to regret it. Acclimatizing to the altitude was tough, we tried a shot of oxygen, took several altitude pills but in the end the thing that saved us most was coca tea. Who knew! Strictly illegal in most countries but widely used and encouraged in Peru, Mexico and Colombia, I couldnt imagine how the original and primary ingredient of coca cola, was later made illegal in America, and later also India. It made me sad to contemplate the notion, that we feel comfortable restricting the use of natural herbs, but encourage the use of powerful and complex chemicals to kids. I wondered what other herbs in America the government has made illegal, that I don&#039;t know about. Or how an educated adult population is comfortable with being told what to and what not to eat. But as usual, I digress. Cusco continued to be a delight in the same way as Lima, the food here is as good or potentially a shade better. We ended up taking several cooking classes in Cusco, in an attempt to learn all that we are eating in Peru, and learned a lot of different ways to make a fine cevichÃ¨ and decent tamales.  #CarolynKanhar",
-		"Images": [
+        "Country": "Peru",
+        "Images": [
 			"media/201912/76876297_179531259833963_8884816004410453130_n_17848297348798826.jpg",
 			"media/201912/79737955_601635220571396_3988633333537341024_n_17874143194517768.jpg",
 			"media/201912/76990937_2545242675590894_2986452528042509608_n_18082223203151830.jpg",
@@ -402,7 +429,8 @@ const countries= {
 	},
 	"Lima, Peru": {
 		"Desc": "Lima, Peru, we hopped into the capital with high expectations for Peruvian Chinese food (called Chifa) but instead found that we liked the local Peruvian food a whole lot better. Chifa didn&#039;t stand up to our gastronomic scrutiny, instead we gained a much better appreciation for Indian Chinese food that we had eaten many years ago in Calcutta, a fusion that is as highly under rated as it is unique. But I digress, Leche de Tiger, a Peruvian specialty is unique and delicious. Contrary to its name it has nothing to do with a tiger, but starts off tasting like a Chipotle Mayonnaise, but quickly transforms into a flavor that we have never tasted, but loved. It is the base sauce, that most ceviche&#039;s are blended in. I tried vainly to get their secret recipe but the fine folks at Barra Maretazo are no fools, and instead placated me with an extra cup of this deliciousness. Well fed and heavy, we trudged our way around town, looking at all sorts of beautiful buildings and a couple musuems. The next day we found a boat operator that would take us to see Humboldt Penguins and swim with Sea lions. To be clear this was no Disney cruise, we were put 15 miles in international Waters in rough seas, looking at at the rocky side of a little island with 500 seemingly well fed sea lions looking at us. The sea lions smelt terrible to us. I wondered what we would smell like to them. And then the order was given, to jump. Us well fed humans obliged. Curious little creatures these sea lions are, they came up to us, 20 at a time, to look at us, smell us, dive under us, and make all sorts of noises at us. For probably the first time in my zoological experience, I felt like I was in a cage, and the sea lions were the tourists, taking mental photos of us, studying us, touching us, looking at all our different faces, colors and sizes. We were caged in, limited by our ability to swim, and breathe, while they were free. I continue to think of their curious eyes. #CarolynKanhar",
-		"Images": [
+        "Country": "Peru",
+        "Images": [
 			"media/201912/75546004_812496099192251_4489856278936914620_n_17940400558321633.jpg",
 			"media/201912/75372353_181086129706593_6503038495892295926_n_18016430458249127.jpg",
 			"media/201912/75616353_812296602529833_7999174038684172180_n_17853009745724587.jpg",
@@ -418,7 +446,8 @@ const countries= {
 	},
 	"Bogota, Colombia": {
 		"Desc": "Bogota, Colombia, we only had a day here, but we stumbled into a six dimensional fireworks show which including weaving together dancers floating over the crowd suspended by a crane, video projected onto the cathedrals walls over which was superimposed a set of stationary (non floating) dancers, along with synchronized music and fireworks. What a riot! A feat fit for any Olympic opening ceremony, was actually just a build up to Christmas, still a ways away. The energy here was palpable, and we felt it even more having just come out of our little mountain retreat in Pijao. We even found a museum of gold that surpassed any expectations we had of what such a museum would contain. We took the cable car up mount Monseratte, and spent all our remaining pesos on a nice bottle of wine overlooking the city. Pesos will be of little use in Peru. #CarolynKanhar",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/75397735_171581297289612_6994886800682318351_n_17846777380836483.jpg",
 			"media/201912/78710234_1027047297631255_5049645019527199542_n_17849606320768679.jpg",
 			"media/201912/75454126_2475562882704726_2294534202291703871_n_17855170552686654.jpg",
@@ -435,7 +464,8 @@ const countries= {
 	},
 	"Pijao, Colombia": {
 		"Desc": "Pijao, Colombia, an undiscovered gem, where the owner of the local cafe made me a delicious cup of coffee and then spent ten minutes showing me how his espresso machine worked, and how 110 years ago his great grandfather had the forethought to purchase it. Thinking of how many coffees this little engine of steam had produced, and the pride Mario took in making coffee made me pensive. Later we cooked a dinner to enjoy a home made meal, and invited the owners of the hostel, who then invited their friends, and soon we had a crew of 16 people looking to get rowdy. I got the sense that if Ernest Hemingway were walking down the street he&#039;d have wanted to join. The party moved to a nearby salsa bar, where unbeknownst to us, one could bring their own liquor. Everybody seemed to walk in with a bottle of whiskey or rum, that they were very eager to share. One gentleman even had the hindsight to bring a cooler full of ice. After a night of drinking things degenerated quickly to where we found ourselves in the town square continuing to drink up a storm. The notion of anybody causing a ruckus seemed alien, everybody seemed intent to be merry and enjoy the evening, as if there would be no other. We felt like we were in the movie Midnight in Paris, Hemingway&#039;s presence loomed large all evening. #CarolynKanhar",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/75375723_447822605890994_5215490289734018740_n_17875401220507822.jpg",
 			"media/201912/72490019_198709861178229_8745532886173316000_n_17854966954684796.jpg",
 			"media/201912/74711756_125935428524042_3631286945600905315_n_17882608663471229.jpg",
@@ -452,7 +482,8 @@ const countries= {
 	},
 	"Valley of Cocora, Colombia": {
 		"Desc": "Nestled high up in the Colombian Andes, lies the Valley of Cocora, part of the Los Nevados National Natural park, which might as well be a different planet. The palm trees here are the tallest in the world, but look quiet and lonely. The 12.5 mile hike up to the Acaime Hummingbird sanctuary is gruelling, but beautiful. And when we saw a condor soaring through the valley, our hearts soared with it. #CarolynKanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/79348312_155878502404957_766449285744707835_n_17996574418300955.jpg",
 			"media/201912/73328782_945117879208711_2058366049549687996_n_17885968039458209.jpg",
 			"media/201912/72327385_204028223969060_3186971613422066692_n_18069379630175957.jpg",
@@ -467,7 +498,8 @@ const countries= {
 	},
 	"Finlandia, Colombia": {
 		"Desc": "On the road to Bogota, we stopped at Filandia, a cute little mountain town, with an abundance of coffee and tequila. The scenery continues to amaze us. When we presented our passports to check into the hostel, I was told that our smiles alone would suffice. If I were ever in the kind of trouble Butch and Sundance got into, I&#039;d consider coming here. #CarolynKanhar #indianjonesandlaracroft",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/75629097_806801153066713_6717097779704296614_n_18097189795097983.jpg",
 			"media/201912/71100850_2619863908249713_2022246212063747006_n_17846263036821796.jpg",
 			"media/201912/79530760_158445825537344_695640046808901215_n_17868730057541652.jpg",
@@ -482,7 +514,8 @@ const countries= {
 	},
 	"Jardi­n, Colombia": {
 		"Desc": "Long and windy bus ride from Medellin brought us to Jardi­n, where we saw the lion in his lair. Adrien practically runs the town, and is working on opening a farmhouse hostel. The music, and the smiles of JardÃ­n continue to make me smile. The five days we spent here made us feel like regular old Jardinians. The ruggedness of travel softened by Adriens generosity and some fine home made cooking, we feel emboldened to venture deeper into Colombia.",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/80572296_177493626774669_5346963334415573829_n_17847903877782167.jpg",
 			"media/201912/79957087_153633025923980_3198992186363564210_n_18047111617206099.mp4",
 			"media/201912/75576724_2791720157557799_7041462848138858557_n_18095946160112347.jpg",
@@ -497,7 +530,8 @@ const countries= {
 	},
 	"Medellin, Colombia": {
 		"Desc": "Medellin, a dash of civility after Cartagena! The industriousness of the people and the effectiveness of the social institutions here continues to surprise me. The Antiochians put a lot of thought behind helping those that need it most - and are succeeding remarkably. Their investment in a cheap (practically free) city wide transportation system reduced crime, while providing 3 free meals at schools, and free healthcare has created a near 100% education rate. My faith in free market systems continues to erode. #CarolynKanhar",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/74880431_675706096295309_2107771674217005909_n_17865489457577485.jpg",
 			"media/201912/77119426_965823733772937_7517751232343198248_n_18095063272119675.jpg",
 			"media/201912/75266930_2544003532365209_1056464153393998284_n_17917485685368651.jpg",
@@ -514,7 +548,8 @@ const countries= {
 	},
 	"Cartagena, Colombia": {
 		"Desc": "It's official... We are going to be on the road till March. We hope to backpack our way from Cartagena to Calcutta exploring as much as we are able. Expect many photos, and if you are en route, we hope to see you. \nCartagena is a pirate city like no other, with walls, cannons, and a benign but rowdy way to life, and liberty. We, of course, loved it, and we hope the pictures do it justice. A real life pirates of the Caribbean if any. #CarolynKanhar #IndianJonesAndLaraCroft",
-		"Images": [
+        "Country": "Colombia",
+        "Images": [
 			"media/201912/75629078_240845533547425_5720990576906269227_n_18031979302240284.jpg",
 			"media/201912/71912400_180476739766204_8840801674955378830_n_17881276048470833.jpg",
 			"media/201912/74889146_2643626185685557_8883578221428317348_n_18084318268083819.jpg",
@@ -529,7 +564,8 @@ const countries= {
 	},
 	"New Orleans, Louisiana": {
 		"Desc": "New Orleans - never ceases to amaze.",
-		"Images": [
+        "Country": "US",
+        "Images": [
 			"media/201911/72734259_245679566405058_2193622488243301659_n_18007361902264537.jpg",
 			"media/201911/72727436_244157003226507_6145496610303499710_n_18032062993232718.jpg",
 			"media/201911/72289140_183956069319679_6256393801336761005_n_17912006911374805.jpg",
@@ -544,7 +580,8 @@ const countries= {
 	},
 	"Cozumel, Mexico": {
 		"Desc": "Cozumel, Tulum - recommend you skip Tulum and go straight to Cozumel, the scuba diving is incredible and the bike path spans the entire Island. Also the bar across the Rasta bar in Punta Sur serves a delicious mojito. Their secret, a splash of grapefruit.",
-		"Images": [
+        "Country": "Mexico",
+        "Images": [
 			"media/201911/73480723_190515528780758_354765583765789201_n_17852606245683702.jpg",
 			"media/201911/75332713_152199106158273_9184773791893353643_n_17891501062430149.jpg",
 			"media/201911/75397691_166434041100001_8775208250587578420_n_17919240826359935.jpg",
@@ -559,7 +596,8 @@ const countries= {
 	},
 	"Vallodolid, Mexico": {
 		"Desc": "Vallodolid - a town of arches and a good stopping point en route to CobÃ¡. While driving to CobÃ¡ on the last bit, about 2km away, if you see a small sign on the right that says Mayan village, stop by and tell Pedro I said Hello. He and his wife are lovely, and have the most interesting collection of medicinal plants and bee keeping techniques I have ever seen!",
-		"Images": [
+        "Country": "Mexico",
+        "Images": [
 			"media/201911/74896460_165159167924560_3564733943787135006_n_17843832529791851.jpg",
 			"media/201911/73214926_423375231943547_238163062501257503_n_17933703520318511.jpg",
 			"media/201911/73497462_244766856496787_2283097406856110293_n_17842865677817455.jpg",
@@ -574,7 +612,8 @@ const countries= {
 	},
 	"Merida, Mexico": {
 		"Desc": "Merida - we are so glad we found you with all your kindness, chocolates, cenotes, flamingos and music. I hope to be back soon! \nThanks to &#064;ramirocc93 for the underwater video ðŸ™‚",
-		"Images": [
+        "Country": "Mexico",
+        "Images": [
 			"media/201911/72296242_3131309436884180_1523427652305264489_n_17866118779546332.jpg",
 			"media/201911/73446507_719985161841655_5880788245861316496_n_18093201208098412.jpg",
 			"media/201911/75375722_2519133168305455_6858191638392506092_n_17971861795290065.jpg",
@@ -593,7 +632,8 @@ const countries= {
 	},
 	"Oaxaca, Mexico": {
 		"Desc": "Oaxaca - a splash of Austin with a touch of Mezcal. The colors of Oaxaca are unlike any I have ever seen. &#064;campoknits #oaxaca",
-		"Images": [
+        "Country": "Mexico",
+        "Images": [
 			"media/201911/74518086_180907766418193_7761240410209601645_n_18069900568162864.jpg",
 			"media/201911/72481018_2351669495147761_706435512324410525_n_17869722001503384.jpg",
 			"media/201911/70815828_428694654697217_5275211991431222584_n_18113823199041359.jpg",
@@ -606,8 +646,9 @@ const countries= {
 			"media/201911/71812500_152892399419502_6045043138676744351_n_17854312252645993.jpg"
 		]
 	},
-	"TEMP40": {
+	"Mexico City, Mexico": {
 		"Desc": "Highly recommend you visit. We are in awe of it, the people, the food, the music and an over abundance of culture.",
+        "Country": "Mexico",
 		"Images": [
 			"media/201911/77409662_507846423404549_4930298516633732994_n_17904120226377922.jpg",
 			"media/201911/72574157_477825649747245_6706061170234969170_n_17857157815606033.jpg",
@@ -623,6 +664,7 @@ const countries= {
 	},
 	"Ottawa, Canada": {
 		"Desc": "My crew! Honored to know every one of you. Thank you for making me who I am today.",
+        "Country": "Canada",
 		"Images": [
 			"media/201909/69763992_518053625623322_6478169759736421821_n_17880214576429334.jpg",
 			"media/201909/68827419_3025001514209248_6183910137852389789_n_17887033570406928.jpg",
@@ -638,7 +680,8 @@ const countries= {
 	},
 	"Aix De Provence, France": {
 		"Desc": "I am already missing Marco and Aix... It is by far the best city I have ever visited in all my travels! #southoffrance #swimbikerun #lavenderfields",
-		"Images": [
+        "Country": "France",
+        "Images": [
 			"media/201907/67374046_109194606918789_1009225673506551443_n_17980440790265175.jpg",
 			"media/201907/65553064_447785919133038_125818108956392430_n_17867124094428838.jpg",
 			"media/201907/65313142_435309930649806_5022111366619174986_n_18013774954223056.jpg",
@@ -651,7 +694,8 @@ const countries= {
 	},
 	"Venice, Italy": {
 		"Desc": "An evening in Venice!",
-		"Images": [
+        "Country": "Italy",
+        "Images": [
 			"media/201907/65650650_390135991624908_6768487688556738055_n_18040314088175074.jpg",
 			"media/201907/65283322_118674296079109_4297954309697245297_n_17962065334304850.jpg",
 			"media/201907/66714818_120104249262026_3068793887303450304_n_18079154665070302.jpg",
@@ -665,6 +709,7 @@ const countries= {
 	},
 	"Paris, France": {
 		"Desc": "Paris!",
+        "Country": "France",
 		"Images": [
 			"media/201907/65766657_235400564083366_5996055581235315319_n_18082471714000580.jpg",
 			"media/201907/66531600_478236196067465_9210351448680506880_n_18017721337207985.jpg",
@@ -680,6 +725,7 @@ const countries= {
 	},
 	"Austin, Texas": {
 		"Desc": "Day 16: We made it to Austin in good shape. And so did the plants!! ðŸ™‚",
+        "Country": "US",
 		"Images": [
 			"media/201906/61492110_642345216229063_5388809909805708706_n_18062262640073993.jpg",
 			"media/201906/61824886_622923071566440_4645217767992726209_n_18072709468025981.jpg",
@@ -691,6 +737,7 @@ const countries= {
 	},
 	"Hot Springs, Arkansas": {
 		"Desc": "Day 15: Hot Springs, Arkansas. A hidden gem.",
+        "Country": "US",
 		"Images": [
 			"media/201906/60981062_401316047260081_7920889512135035250_n_17901658990316373.jpg",
 			"media/201906/61053256_714199822347043_6045662547004499669_n_18038180914182359.jpg",
@@ -702,6 +749,7 @@ const countries= {
 	},
 	"Memphis, Tennessee": {
 		"Desc": "Day 14: Memphis",
+        "Country": "US",
 		"Images": [
 			"media/201905/61300597_838177033212341_4944372235691934980_n_18071547541023391.jpg",
 			"media/201905/60182195_617668702082525_6280958671770403135_n_18073211362002816.jpg",
@@ -714,6 +762,7 @@ const countries= {
 	},
 	"Blue Ridge parkway, North Carolina": {
 		"Desc": "Day 13: The Biltmore estate, Blue Ridge parkway enroute to Nashville.",
+        "Country": "US",
 		"Images": [
 			"media/201905/61053465_305095363755070_5796784509330355169_n_17842489924469635.jpg",
 			"media/201905/60288327_134365614330348_2294956174062801972_n_17893624438333121.jpg",
@@ -726,6 +775,7 @@ const countries= {
 	},
 	"Shenandoah National Park, Virginia": {
 		"Desc": "Day 12: Maryland | Virginia | Tennessee | North Carolina and Shenandoah National Park",
+        "Country": "US",
 		"Images": [
 			"media/201905/60185029_110930626670097_8182832472010249857_n_18036266170148021.jpg",
 			"media/201905/60476857_571089733418340_2145817730316714756_n_18070700179055811.jpg"
@@ -733,12 +783,14 @@ const countries= {
 	},
 	"Annapolis, MD": {
 		"Desc": "Day 11: Annapolis MD",
+        "Country": "US",
 		"Images": [
 			"media/201905/61136398_719433045162991_78694680128242720_n_18035314321160778.jpg"
 		]
 	},
 	"Adirondacks, NY": {
 		"Desc": "Days 8-10: Lake George, Adirondacks #stuckcamp",
+        "Country": "US",
 		"Images": [
 			"media/201905/60242855_587960051726970_494764276440419805_n_18001518280221254.jpg",
 			"media/201905/61655110_2536123313067122_5862400036552135997_n_17993273722233843.jpg",
@@ -752,6 +804,7 @@ const countries= {
 	},
 	"Berkshires, MA": {
 		"Desc": "Day 7: The Berkshires!",
+        "Country": "US",
 		"Images": [
 			"media/201905/60207370_697355984048892_7076392933161068543_n_17877876244362630.jpg",
 			"media/201905/60801520_2298881677051605_4058772467402449184_n_17855880934420312.jpg",
@@ -762,6 +815,7 @@ const countries= {
 	},
 	"TETrustom Bird Sanctuary and Point Judith, and Cepachet RI": {
 		"Desc": "Day 5: Trustom Bird Sanctuary and Point Judith, RI",
+        "Country": "US",
 		"Images": [
 			"media/201905/61427409_402355480619461_6773755498067867701_n_17862496519400756.jpg",
 			"media/201905/60739276_372324766722070_5072644481786629771_n_18035346514158324.jpg",
@@ -778,6 +832,7 @@ const countries= {
 	},
 	"Jamestown, Rhode Island": {
 		"Desc": "Day 4: Jamestown, Rhode Island",
+        "Country": "US",
 		"Images": [
 			"media/201905/60060666_2156072114428755_3804636303977075768_n_18059193025073825.jpg",
 			"media/201905/61210351_438413780282836_3852791262474902314_n_17891243650332726.jpg",
@@ -788,6 +843,7 @@ const countries= {
 	},
 	"New York Area": {
 		"Desc": "Day 2: Woodstock, Catskill Mountains",
+        "Country": "US",
 		"Images": [
 			"media/201905/60970534_1640465682752573_3134659972212205267_n_17946110032305028.jpg",
 			"media/201905/60291134_105485257279442_8198679158944474583_n_18039616255137520.jpg",
@@ -803,27 +859,57 @@ var page = path.split("/").pop();
 // Get the URL param
 const queryString = window.location.search;
 const urlParams   = new URLSearchParams(queryString);    
-const travelCity  = urlParams.get('travel_city');    
 const datas = Object.entries(countries);
+
+const travelCity  = urlParams.get('travel_city');    
+const travelCountry  = urlParams.get('travel_country');  
 
 // Render the image for the travel.html page.
 if(page == 'travel.html') {
     let output  = '';
 
+    var countriesDisplayed = new Set()
     for(let key of datas) 
     {
         var cityName = key[0];
         var cityDesc = key[1]["Desc"];
         var cityImag = key[1]["Images"][0];
+        var cityCountry = key[1]["Country"];
 
-        output += `
-        <a href="travelPhotos.html?travel_city=${cityName}" class="item">
-            <div class="img-container">
-                <img src="${cityImag}" alt="">
-            </div>
-            <span>${cityName}</span>
-        </a>
-        `;
+        // Level 1. Show all Countries
+        if (travelCountry == null)      
+        {
+            //Display a country on Main page only once
+            if(countriesDisplayed.has(cityCountry))
+                continue;
+            else
+                countriesDisplayed.add(cityCountry);
+
+            output += `
+            <a href="travel.html?travel_country=${cityCountry}" class="item">
+                <div class="img-container">
+                    <img src="${cityImag}" alt="">
+                </div>
+                <span>${cityCountry}</span>
+            </a>
+            `;
+        }
+        // Level 2: Show only a specific Country
+        else
+        {
+            if (travelCountry != cityCountry)
+            {
+                continue;
+            }
+            output += `
+            <a href="travelPhotos.html?travel_country=${cityCountry}&travel_city=${cityName}" class="item">
+                <div class="img-container">
+                    <img src="${cityImag}" alt="">
+                </div>
+                <span>${cityName}</span>
+            </a>
+            `;
+        }
     }
 
     // Create element
@@ -834,7 +920,7 @@ if(page == 'travel.html') {
 }
 else
 {
-    // Show the country title at the top.
+    // Level 3: Show photos for a Country, city
     document.querySelector(".single-travel-title").innerHTML= travelCity;
     document.querySelector(".single-travel-title").style.textTransform = 'capitalize';
 
