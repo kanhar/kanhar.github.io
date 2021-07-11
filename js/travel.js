@@ -143,9 +143,6 @@ if(page == "single_travel.html") {
     
         document.querySelector(".single-video-container").insertAdjacentElement("beforeend", parentDiv);
     
-        // render it to the screen
-        // document.querySelector(".single-video-container .grid").insertAdjacentElement('beforeend', output);
-        
         // console.log(output);
         // console.log(parentDiv);
     
