@@ -1,92 +1,11 @@
 const countries= {
-    "the baby day out": {
-        "subtitle": "Some subtitle goes here",
+    "Spillian 10.19.2019": {
+        "subtitle": "Kanhar Munshi & Carolyn Dawn Campo, Fleischmann, NY",
         "description": [
-            "desc_1- baby day out",
-            "desc_2- baby day out",
-            "desc_3- baby day out",
-            "desc_4- baby day out",
         ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_1.jpg"
-    },
-    "the comedian jems": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_2.jpg"
-    },
-    "watch together": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_3.jpg"
-    },
-    "watching the movie": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_4.jpg"
-    },
-    "movie theatre": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_5.jpg"
-    },
-    "presentation": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_6.jpg"
-    },
-    "the old stories": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_7.jpg"
-    },
-    "the confidence and clarity of the voice": {
-        "subtitle": "Some subtitle goes here",
-        "description": [
-            "the comedian jems- 1: the comedian jems descriptions",
-            "the comedian jems- 2: the comedian jems descriptions",
-            "the comedian jems- 3: the comedian jems descriptions",
-            "the comedian jems- 4: the comedian jems descriptions",
-        ],
-        "video_url": "https://www.youtube.com/embed/PAhHEwrsamk",
-        "video_image": "img/video_8.jpg"
-    },
+        "video_url": "https://www.youtube.com/watch?v=i1FQYjsghAI",
+        "video_image": "img/videoSpillianShort.jpg"
+    }
 };
 
 var path = window.location.pathname;
