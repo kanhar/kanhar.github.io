@@ -21,7 +21,8 @@ images.forEach(image => {
 });
 
 lightbox.addEventListener("click", (e) => {
-    if(e.target !== e.currentTarget) return // current target is the target we're currently on, in this case, it's lightbox, because we added event on lightbox
+    if(e.target !== e.currentTarget) 
+        return // current target is the target we're currently on, in this case, it's lightbox, because we added event on lightbox
 
     lightbox.classList.remove("active");
 });
