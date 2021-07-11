@@ -3,8 +3,8 @@ const countries= {
 	"Twin Falls, Idaho": {
 		"Desc": "Twin Falls, Idaho - Besides potatoes, Idaho has some remarkable waterfalls, and a refreshing greenery that welcomed us as we drove up from a very arid part of Utah. The downtown is full of character and has a nice river walk, with restaurants that have moved to socially distanced outdoor seating on cordoned off portions of the road. #carolynkanhar #indianjonesandlaracroft",
 		"Images": [
+            "media/202006/104124263_3275897925763343_6838222904592464206_n_17849027300154848.jpg",
 			"media/202006/104125340_2389917264643039_5598228776842334124_n_17893055698527937.jpg",
-			"media/202006/104124263_3275897925763343_6838222904592464206_n_17849027300154848.jpg",
 			"media/202006/104214808_114533623437871_6622390850053237469_n_17848314428170604.jpg",
             "media/202006/105414286_678639122693389_5319493752793976487_n_17844180389219990.jpg",
 			"media/202006/104112723_1506258032908482_5750593497246066222_n_17887653892564705.jpg",
@@ -771,7 +771,7 @@ const countries= {
 			"media/201905/59841403_319436812057133_2906146178715963415_n_18031281586164574.jpg"
 		]
 	},
-	"TEMP59": {
+	"New York Area": {
 		"Desc": "Day 2: Woodstock, Catskill Mountains",
 		"Images": [
 			"media/201905/60970534_1640465682752573_3134659972212205267_n_17946110032305028.jpg",
