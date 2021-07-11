@@ -7,7 +7,7 @@ const countries= {
         "video_image": "img/videoSpillianShort.jpg"
     },
     "Calcutta 02.19.2019": {
-        "subtitle": "Kanhar Munshi & Carolyn Dawn Campo, Fleischmann, NY",
+        "subtitle": "Kanhar Munshi & Carolyn Dawn Campo, Calcutta, India",
         "description": [
         ],
         "video_url": "https://www.youtube.com/embed/OljW9di0_TY",
