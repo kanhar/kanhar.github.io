@@ -644,7 +644,18 @@ const countries= {
 			"media/201912/78714027_477946722855240_7858324362324259213_n_18092222908126121.jpg",
 			"media/201912/75375737_1034586363557160_1499773721292271764_n_17858798635647028.jpg",
 			"media/201912/81741505_462376091379066_6003884229709468353_n_17874580297510405.mp4",
-			"media/201912/PxUCKAJDMywXQE4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_17855885554708518"
+            "media/201912/75375737_1034586363557160_1499773721292271764_n_17858798635647028.jpg",
+			"media/201912/PxUCKAJDMywXQE4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_17855885554708518.mp4",
+            "media/201912/79643949_1067656280246420_2468514521874819008_n_17909318830390738.jpg",
+            "media/201912/79363842_2520029254948277_882931198077673967_n_17903126596408310.jpg",
+            "media/201912/76979588_749243262247099_4614677999941770205_n_18045664876210291.jpg",
+            "media/201912/78997671_189166608802984_5630467558662275179_n_18126702496037107.jpg",
+            "media/201912/75576720_165055244743707_1747644143395163665_n_18002218306276674.jpg",
+            "media/201912/79830585_167028157718722_9163189024093111518_n_17893044511441658.jpg",
+            "media/201912/80383384_833643237075196_8383981277983155801_n_17931179983339490.jpg",
+            "media/201912/80615551_2451262288316625_2742688187244841640_n_18081629524182841.jpg",
+            "media/201912/77407433_620467288760263_2194478618251484936_n_17945566627310673.jpg",
+            "media/201912/77385860_113598366601808_4397418371234490215_n_17895782002429958.jpg"
 		]
 	},
 	"Sacred Valley, Peru": {
@@ -676,7 +687,17 @@ const countries= {
 			"media/201912/76840876_2582906958608339_1071707381071437022_n_18098408884104265.jpg",
 			"media/201912/79926586_2561515380793999_6576145839486842085_n_18084692686133317.jpg",
 			"media/201912/81529949_3369327433132650_6128536798001793013_n_18121789900024264.jpg",
-			"media/201912/79448762_591829924695500_7866522874289724201_n_17859515023642189.jpg"
+			"media/201912/79448762_591829924695500_7866522874289724201_n_17859515023642189.jpg",
+            "media/201912/80720122_543286613193858_172837829349638198_n_18035477398236521.jpg",
+            "media/201912/78802144_181927529591304_756302786583712854_n_18042789484222996.jpg",
+            "media/201912/77198465_579244012633162_3399979945644048873_n_18069934018171953.jpg",
+            "media/201912/75440972_157575632186393_3759428873808382425_n_18080861797147138.jpg",
+            "media/201912/79377120_444344136244952_5647372822849572095_n_17855137738703147.jpg",
+            "media/201912/78807236_3559745250732262_3114109795275101751_n_18048765838200783.jpg",
+            "media/201912/72733753_864341287316771_6348110880539127712_n_17852636665737165.jpg",
+            "media/201912/75341360_926319461118518_1240351936173720852_n_18109952683074429.jpg",
+            "media/201912/79850310_2464299403825334_7237527157469490068_n_17855177716701980.jpg",
+            "media/201912/78863082_473485356639610_445507699846930521_n_17944460353310793.jpg"
 		]
 	},
 	"Lima, Peru": {
@@ -697,7 +718,7 @@ const countries= {
 		]
 	},
 	"Bogota, Colombia": {
-		"Desc": "Bogota, Colombia, we only had a day here, but we stumbled into a six dimensional fireworks show which including weaving together dancers floating over the crowd suspended by a crane, video projected onto the cathedrals walls over which was superimposed a set of stationary (non floating) dancers, along with synchronized music and fireworks. What a riot! A feat fit for any Olympic opening ceremony, was actually just a build up to Christmas, still a ways away. The energy here was palpable, and we felt it even more having just come out of our little mountain retreat in Pijao. We even found a museum of gold that surpassed any expectations we had of what such a museum would contain. We took the cable car up mount Monseratte, and spent all our remaining pesos on a nice bottle of wine overlooking the city. Pesos will be of little use in Peru. #CarolynKanhar",
+		"Desc": "Bogota, Colombia, we only had a day here, but we stumbled into a six dimensional fireworks show which including weaving together dancers floating over the crowd suspended by a crane, video projected onto the cathedrals walls over which was superimposed a set of stationary (non floating) dancers, along with synchronized music and fireworks. What a riot! A feat fit for any Olympic opening ceremony, was actually just a build up to Christmas, still a ways away. The energy here was palpable, and we felt it even more having just come out of our little mountain retreat in Pijao. We even found a museum of gold that surpassed any expectations we had of what such a museum would contain. We took the cable car up mount Monseratte, and spent all our remaining pesos on a nice bottle of wine overlooking the city. Pesos will be of little use in Peru. We have been visiting a whole range of museums in every city and the amount of masterpieces is amazing and too much to absorb. I wanted to share a few of my favorite pieces from Colombia and Peru ranging from the Museo de Antioquia in Medellin, MAMBO in Bogota, The Museo de Oro in Bogota, Museo de Arte Moderno in Cartegena, and MALI in Lima. Incredible inspiration! #CarolynKanhar",
         "Country": "Colombia",
         "Images": [
 			"media/201912/75397735_171581297289612_6994886800682318351_n_17846777380836483.jpg",
@@ -712,6 +733,16 @@ const countries= {
             "media/201912/BogotaDanceDisplay.jpg",
 			"media/201912/81196377_710276729381413_6513243944463642070_n_18119344138053403.mp4",
             "media/201912/BogotaFireworks.jpg",
+            "media/201912/79477091_166167294621659_1419839039722651477_n_17842880488883092.jpg",
+            "media/201912/79775828_1462215933932837_4293767841941290851_n_17865615970561708.jpg",
+            "media/201912/79157095_883401728742489_5125466874533692803_n_17855761174680750.jpg",
+            "media/201912/75305429_152641572685160_915677812606559938_n_17858820175635947.jpg",
+            "media/201912/76887272_487054258596309_6113426100572643203_n_18085653322091336.jpg",
+            "media/201912/79775828_162337548325839_2941330812107677876_n_17873312242524449.jpg",
+            "media/201912/79541151_586268741963190_6841032603124301292_n_18045608311214496.jpg",
+            "media/201912/81384470_176693263532355_5967667387634611015_n_17886344722459572.jpg",
+            "media/201912/80714218_547655816081588_8358122743590292554_n_17975868460290942.mp4",
+            "media/201912/75234573_2698931953726743_6530024503042598834_n_17855988334690966.jpg"
 		]
 	},
 	"Pijao, Colombia": {
@@ -749,7 +780,7 @@ const countries= {
 		]
 	},
 	"Finlandia, Colombia": {
-		"Desc": "On the road to Bogota, we stopped at Filandia, a cute little mountain town, with an abundance of coffee and tequila. The scenery continues to amaze us. When we presented our passports to check into the hostel, I was told that our smiles alone would suffice. If I were ever in the kind of trouble Butch and Sundance got into, I&#039;d consider coming here. #CarolynKanhar #indianjonesandlaracroft",
+		"Desc": "On the road to Bogota, we stopped at Filandia, a cute little mountain town, with an abundance of coffee and tequila. The scenery continues to amaze us. When we presented our passports to check into the hostel, I was told that our smiles alone would suffice. If I were ever in the kind of trouble Butch and Sundance got into, I&#039;d consider coming here. Colombian road trip! We visited the small coffee growing region towns of Filandia, Salento and Pijao. We hiked the cloud forest Cocora, which has the tallest palm trees in the world, the national tree of Colombia. We partied and salsa-ed in Pijao with new friends from around the world, at the beautiful Hostal de Calibri. So many hummingbirds!!! #CarolynKanhar #indianjonesandlaracroft",
         "Country": "Colombia",
         "Images": [
 			"media/201912/75629097_806801153066713_6717097779704296614_n_18097189795097983.jpg",
@@ -761,7 +792,17 @@ const countries= {
 			"media/201912/75616330_158315368845485_2655575701697519639_n_17844632086855263.jpg",
 			"media/201912/79547231_1349895158523567_8165751266521909610_n_17992605319280390.jpg",
 			"media/201912/72350167_830789504018278_7807582075604654781_n_18036501232227116.jpg",
-			"media/201912/77238876_2499822246951349_3689158699835184630_n_18044552194209569.jpg"
+			"media/201912/77238876_2499822246951349_3689158699835184630_n_18044552194209569.jpg",
+            "media/201912/74605114_1360885250749729_1001728575997811542_n_17846367901824895.jpg",
+            "media/201912/73457399_207469316936007_1568998848594455935_n_17864424130587689.jpg",
+            "media/201912/71728674_1768484173286518_3004250564588007251_n_17858403355631004.jpg",
+            "media/201912/73381138_926754254385265_2090690196355529622_n_18009735874271792.jpg",
+            "media/201912/77136925_2179169865721778_6922397933778359199_n_17879193499486479.jpg",
+            "media/201912/78889947_158826325376164_8650650943848202911_n_17875210999506732.jpg",
+            "media/201912/75225441_444266023143459_6719447719687526244_n_18118978270021117.jpg",
+            "media/201912/80820758_515977615684046_1159762811787261659_n_18096717607112104.jpg",
+            "media/201912/76909341_580712862720996_791298918805573858_n_17847319495790762.jpg",
+            "media/201912/77128576_1331727683663980_6729275928721730767_n_17879448478484099.jpg"
 		]
 	},
 	"Jardi­n, Colombia": {
@@ -777,11 +818,21 @@ const countries= {
 			"media/201912/76883687_2696535767241890_4375305679325454559_n_18080863594159401.jpg",
 			"media/201912/77124336_2451019491789592_2543238329027211548_n_17864426803594149.jpg",
 			"media/201912/74964058_167459351026760_5830826901620277541_n_18015200368259389.jpg",
-			"media/201912/76961409_170530244016111_708049530475907211_n_17989392718285930.jpg"
+			"media/201912/76961409_170530244016111_708049530475907211_n_17989392718285930.jpg",
+            "media/201912/79735999_2858271010858343_5396837983003237659_n_17860122880622061.jpg",
+            "media/201912/79736258_199114804461653_6587475266912661960_n_17868826276554127.jpg",
+            "media/201912/78936340_165168448087414_7673465018896868288_n_18016614109249073.jpg",
+            "media/201912/75020293_1493767937454543_3924399162855186824_n_17940137530316439.jpg",
+            "media/201912/75660173_136254464474641_8981814253833616691_n_17923025734359433.jpg",
+            "media/201912/75484621_483000045680432_6078917251418757835_n_17854367776681523.jpg",
+            "media/201912/73420151_429442634605167_5340881985758021120_n_17939895298321821.jpg",
+            "media/201912/78842037_2811032605614350_1960668955218418010_n_17878805800489913.jpg",
+            "media/201912/75484596_205822447105923_6220042985484845328_n_17857987168631232.jpg",
+            "media/201912/75419831_172063013882030_3589897445498801159_n_17881817386472827.jpg"
 		]
 	},
 	"Medellin, Colombia": {
-		"Desc": "Medellin, a dash of civility after Cartagena! The industriousness of the people and the effectiveness of the social institutions here continues to surprise me. The Antiochians put a lot of thought behind helping those that need it most - and are succeeding remarkably. Their investment in a cheap (practically free) city wide transportation system reduced crime, while providing 3 free meals at schools, and free healthcare has created a near 100% education rate. My faith in free market systems continues to erode. #CarolynKanhar",
+		"Desc": "Medellin, a dash of civility after Cartagena! The industriousness of the people and the effectiveness of the social institutions here continues to surprise me. The Antiochians put a lot of thought behind helping those that need it most - and are succeeding remarkably. Their investment in a cheap (practically free) city wide transportation system reduced crime, while providing 3 free meals at schools, and free healthcare has created a near 100% education rate. My faith in free market systems continues to erode. Greatly enjoyed our time in Medellin. The once most dangerous city in the world greeted us with huge open arms. We explored the notorious Communa 13 to see some beautiful street art, where the guerillas used to run the show. Our guide shared his incredible family story and showed us how much  Medellin has overcome such unbelievable tragedy to be the most progressive city in Colombia. A true underdog story! We also arrived on Dia de Las Velitas- the first day of the Colombian Christmas season where people light candles on the street to help the Virgin Mary find her way to the manger. Such a beautiful tradition! #CarolynKanhar",
         "Country": "Colombia",
         "Images": [
 			"media/201912/74880431_675706096295309_2107771674217005909_n_17865489457577485.jpg",
@@ -796,6 +847,16 @@ const countries= {
             "media/201912/75243090_2675531272540251_1484969170705865134_n_18116716507005113.jpg",
 			"media/201912/78788395_2658746054172339_8487245808599926486_n_18120682192009923.mp4",
             "media/201912/75243090_2675531272540251_1484969170705865134_n_18116716507005113.jpg",
+            "media/201912/79501941_575729333177172_2637265435983046642_n_18084346651084510.jpg",
+            "media/201912/76709224_179225659939172_302583923097592525_n_17987656408287636.jpg",
+            "media/201912/71714362_254590778840877_856579354403577581_n_17881440952476382.jpg",
+            "media/201912/76845301_164438918292186_7375301823975814798_n_17991599482280471.jpg",
+            "media/201912/77074893_156294278963440_3011821484581720222_n_17857557022636564.jpg",
+            "media/201912/74820447_3219224038151024_7921973342656473258_n_17846088031806859.jpg",
+            "media/201912/80096377_2523581007918798_6495896256014830595_n_17939751022316399.jpg",
+            "media/201912/75371287_2554260051516385_1180946891504106455_n_17860918075612090.jpg",
+            "media/201912/74673920_2536401916414706_3861482473341446180_n_18118048456018506.jpg",
+            "media/201912/75272078_225759725089823_146056357495056890_n_17848205845757980.jpg"
 		]
 	},
 	"Cartagena, Colombia": {
@@ -811,7 +872,17 @@ const countries= {
 			"media/201912/77088216_695272211002913_5294482679930982592_n_17999935261279113.jpg",
 			"media/201912/71037844_184690702675816_944026426484986366_n_17884694854456759.jpg",
 			"media/201912/80320618_113493286592030_3060298980248102271_n_18118141843040606.jpg",
-			"media/201912/79372042_732893147230472_281267427994719158_n_18094301065119608.jpg"
+			"media/201912/79372042_732893147230472_281267427994719158_n_18094301065119608.jpg",
+            "media/201912/75483271_505881706681753_1083027318988811294_n_17882630704466255.jpg",
+            "media/201912/72899654_2469020206704512_6829695758257414694_n_17852718067724101.jpg",
+            "media/201912/79497007_553360918849592_7560284414127507010_n_17868935200545722.jpg",
+            "media/201912/75397760_1190203597836249_6855291131705950584_n_17852475463711325.jpg",
+            "media/201912/73537492_458405998383124_3395384458957862963_n_17865055864573755.jpg",
+            "media/201912/70702003_510944536170840_622760502828607123_n_18084037039093848.jpg",
+            "media/201912/73372142_614545389373255_4841250260891896147_n_17842929634860869.jpg",
+            "media/201912/75454119_3128807913802899_6211842762302691778_n_17856165988660126.jpg",
+            "media/201912/79471421_2400100366908264_4539021067991954168_n_18042249151221793.jpg",
+            "media/201912/79821806_163706981508386_2367268807076853442_n_17924673082352157.jpg"
 		]
 	},
 	"New Orleans, Louisiana": {
