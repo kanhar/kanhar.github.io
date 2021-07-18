@@ -20,7 +20,7 @@ const countries= {
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
-if(page == 'single_video.html') {
+if(page == 'videoContent.html') {
     // Get the URL param
     const queryString = window.location.search;
     const urlParams   = new URLSearchParams(queryString);
@@ -102,7 +102,7 @@ if(page == 'video.html') {
             datas.forEach(d=> {
                 // console.log(d[1][0]);
                 output += `
-                    <a href="single_video.html?video_name=${d[0]}" class="item">
+                    <a href="videoContent.html?video_name=${d[0]}" class="item">
                         <img src="${d[1].video_image}" alt="">
                         <span>${d[0]}</span>
                     </a>

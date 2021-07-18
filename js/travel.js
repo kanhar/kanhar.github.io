@@ -1305,7 +1305,7 @@ const travelCountry  = urlParams.get('travel_country');
 var headerOutput;
 var worldHref = '<a href="travel.html">World</a>';
 var countryHref = '<a href="travel.html?travel_country=' + travelCountry + '">' + travelCountry +'</a>';
-var cityHref = '<a href="travelPhotos.html?travel_country=' + travelCountry + '&travel_city='+travelCity+'">'+travelCity+'</a>';
+var cityHref = '<a href="travelContent.html?travel_country=' + travelCountry + '&travel_city='+travelCity+'">'+travelCity+'</a>';
 if (travelCountry != null && travelCity != null)
 {
     headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
@@ -1356,7 +1356,7 @@ if(page == 'travel.html') {
                 continue;
             }
             output += `
-            <a href="travelPhotos.html?travel_country=${cityCountry}&travel_city=${cityName}" class="item">
+            <a href="travelContent.html?travel_country=${cityCountry}&travel_city=${cityName}" class="item">
                 <div class="img-container">
                     <img src="${cityImag}" alt="">
                 </div>
