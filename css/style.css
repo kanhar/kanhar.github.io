@@ -82,9 +82,6 @@ img {
     top: 20px;
     font-size: 1.75rem;
     cursor: pointer;
-    /* background: #ebebeb; */
-    /* padding: .3rem .8rem;
-    border-radius: 5px; */
 }
 
 #nav-btn i { color: #333; }
@@ -120,17 +117,6 @@ img {
     text-align: center;
 }
 
-/* #main-header div:first-child {
-    padding-bottom: .3rem;
-} */
-
-#main-header div:nth-child(2) {
-    padding: 1.5rem 0 1.5rem 0;
-    font-size: .55rem;
-    text-transform: uppercase;
-    font-family: var(--quicksand-font);
-}
-
 #main-header .social-icons > a {
     padding: 0 .75rem 0 0;
 }
@@ -156,7 +142,6 @@ img {
 #travel,
 #video,
 #main,
-#contact,
 #travel-photos-section-id,
 #HomePage,
 #video-details {
@@ -233,7 +218,6 @@ img {
 #main .main-container .description-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 1px; */
 }
 
 #main .main-container .description-items > *:last-child {
@@ -269,158 +253,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Section: Contact */
-#contact .contact-container .first-contact-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-#contact .contact-container .first-contact-item .img-container {
-    width: 55%;
-    height: 500px;
-}
-
-#contact .contact-container .first-contact-item .img-container img {
-    width: 100%;
-    height: auto;
-}
-
-#contact .contact-container .first-contact-item .text-container .first-item h3 {
-    margin-top: 0;
-    text-transform: uppercase;
-}
-
-#contact .contact-container .first-contact-item .text-container {
-    margin-left: -40%;
-}
-
-#contact .contact-container .first-contact-item .text-container h3 {
-    font-family: var(--pauta-font);
-    margin: 1.3rem 0;
-    font-size: 1.7rem;
-}
-
-#contact .contact-container .first-contact-item .text-container p,
-#contact .contact-container .third-contact-item p {
-    font-family: var(--quicksand-font);
-    line-height: 1.5;
-    text-align: justify;
-}
-
-#contact .contact-container .second-contact-item h4 {
-    font-family: var(--pauta-font);
-    margin: 1.3rem 0;
-    font-size: 1.7rem;
-}
-
-#contact .contact-container .second-contact-item .paras {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
-    line-height: 1.5;
-    font-family: var(--quicksand-font);
-    text-align: justify;
-}
-
-#contact .contact-container .third-contact-item h5 {
-    font-family: var(--pauta-font);
-    margin: 1.3rem 0;
-    font-size: 1.7rem;
-}
-
-#contact .contact-container .fourth-contact-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    text-align: justify;
-}
-
-#contact .contact-container .fourth-contact-item .first-child h6 {
-    font-family: var(--pauta-font);
-    margin: .3rem 0;
-    font-size: 1.7rem;
-}
-
-#contact .contact-container .fourth-contact-item .first-child p {
-    font-family: var(--quicksand-font);
-}
-
-#contact .contact-container .fourth-contact-item form .wrapper-item {
-    border: 1px solid #000;
-}
-
-#contact .contact-container .fourth-contact-item form .form-group input {
-    border: none;
-    display: inline-block;
-    width: 100%;
-    outline: none;
-    padding: .75rem .7rem;
-    border-bottom: 1px solid #000;
-    font-family: var(--quicksand-font);
-}
-
-#contact .contact-container .fourth-contact-item form .form-group textarea {
-    resize: none;
-    border: none;
-    outline: none;
-    padding: .75rem .7rem;
-    width: 100%;
-    height: 200px;
-    font-family: var(--lato-font);
-    font-size: 1.1rem;
-}
-
-#contact .contact-container .fourth-contact-item form input[type="submit"] {
-    font-family: var(--lato-font);
-    border: none;
-    background: none;
-    border: 1px solid #000;
-    width: 35%;
-    padding: .9rem 0;
-    cursor: pointer;
-    font-size: .9rem;
-    margin-top: .75rem;
-}
-
-#contact .contact-container .fourth-contact-item form input[type="submit"]:hover {
-    background: #ebebeb;
-    transition: .5s all;
-}
-
-#contact .contact-container .fifth-contact-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
-}
-
-#contact .contact-container .fifth-contact-item .img-container {
-    width: 55%;
-    height: 500px;
-}
-
-#contact .contact-container .fifth-contact-item .img-container img {
-    width: 100%;
-    height: auto;
-}
-
-#contact .contact-container .fifth-contact-item .text-c {
-    margin-left: -40%;
-    text-align: justify;
-    font-family: var(--quicksand-font);
-    line-height: 1.75;
-    align-self: flex-start;
-    font-style: italic;
-}
-
-#contact .contact-container .right-text .right-text-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 0;
-    font-family: var(--quicksand-font);
-    font-style: italic;
-}
-
 /* Section: travel-photos-section-id */
 #travel-photos-section-id .travel-container .grid .grid-item:hover {
     cursor: pointer;
@@ -453,8 +285,6 @@ img {
 .video-subtitle {
     font-size: 1.2rem;   
 }
-
-
 
 /* For smaller devices */
 @media(max-width: 1400px) {
@@ -500,24 +330,9 @@ img {
         grid-column: 1/span 1;
     }
 
-    /* Contact */
-    #contact .contact-container .first-contact-item {
-        grid-template-columns: 1fr;
-        margin-left: 28%;
-    }
-
-    #contact .contact-container .first-contact-item .img-container {
-        height: auto;
-    }
-
-    #contact .contact-container .fourth-contact-item {
-        grid-template-columns: 1fr;
-    }
-
     #video-details .video-details-container ul {
         margin-left: 3%;
     }
-
 }
 
 @media(max-width: 800px) {
@@ -531,10 +346,6 @@ img {
         margin-left: 4%;
     }
 }
-
-/* @media(max-width: 600px) {
-
-} */
 
 @media(max-width: 620px) {
 
@@ -556,28 +367,9 @@ img {
         transition: .3s all;
     }
 
-    /* Contact */
-    #contact .contact-container .second-contact-item .paras {
-        grid-template-columns: 1fr;
-    }
-
-    #contact .contact-container .fifth-contact-item {
-        grid-template-columns: 1fr;
-    }
-
-    #contact .contact-container .fifth-contact-item .img-container {
-        height: auto;
-        justify-self: center;
-    }
-
-    #contact .contact-container .fifth-contact-item .text-c {
-        margin-left: -1%;
-    }
-
     #travel,
     #video,
     #main,
-    #contact,
     #travel-photos-section-id,
     #video-details {
         margin-left: 0;
