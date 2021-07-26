@@ -1289,18 +1289,21 @@ const queryString = window.location.search;
 const urlParams   = new URLSearchParams(queryString);    
 const datas = Object.entries(map);
 
-const travelCity  = urlParams.get('levelB');    
-const travelCountry  = urlParams.get('levelA');  
+const levelBValue  = urlParams.get('levelB');    
+const levelAValue  = urlParams.get('levelA');  
+
+var parentPage = "travel.html";
+var childPage = "travelContent.html";
 
 var headerOutput;
-var worldHref = '<a href="travel.html">World</a>';
-var countryHref = '<a href="travel.html?levelA=' + travelCountry + '">' + travelCountry +'</a>';
-var cityHref = '<a href="travelContent.html?levelA=' + travelCountry + '&levelB='+travelCity+'">'+travelCity+'</a>';
-if (travelCountry != null && travelCity != null)
+var worldHref = '<a href="' +  parentPage + '">World</a>';
+var countryHref = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
+var cityHref = '<a href="' + childPage +'?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
+if (levelAValue != null && levelBValue != null)
 {
     headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
 }
-else if(travelCountry != null)
+else if(levelAValue != null)
 {
     headerOutput = worldHref + " --> " + countryHref;
 }
@@ -1309,8 +1312,8 @@ else
     headerOutput = worldHref;
 }
 
-// Render the image for the travel.html page.
-if(page == 'travel.html') {
+// Render the image for the Parent Page
+if(page == parentPage) {
     let output  = '';
     var countriesDisplayed = new Set()
     for(let key of datas) 
@@ -1321,7 +1324,7 @@ if(page == 'travel.html') {
         var cityCountry = key[1]["Country"];
 
         // Level 1. Show all Countries
-        if (travelCountry == null)      
+        if (levelAValue == null)      
         {
             //Display a country on Main page only once
             if(countriesDisplayed.has(cityCountry))
@@ -1330,7 +1333,7 @@ if(page == 'travel.html') {
                 countriesDisplayed.add(cityCountry);
 
             output += `
-            <a href="travel.html?levelA=${cityCountry}" class="item">
+            <a href="${parentPage}?levelA=${cityCountry}" class="item">
                 <div class="img-container">
                     <img src="${cityImag}" alt="">
                 </div>
@@ -1339,10 +1342,10 @@ if(page == 'travel.html') {
             `;
         }
         // Level 2: Show only a specific Country
-        else if (travelCountry == cityCountry)
+        else if (levelAValue == cityCountry)
 		{
 			output += `
-			<a href="travelContent.html?levelA=${cityCountry}&levelB=${cityName}" class="item">
+			<a href="${childPage}?levelA=${cityCountry}&levelB=${cityName}" class="item">
 				<div class="img-container">
 					<img src="${cityImag}" alt="">
 				</div>
@@ -1361,7 +1364,6 @@ if(page == 'travel.html') {
 }
 else
 {
-    // Level 3: Show photos for a Country, city
     let output=  '';
     for(let key of datas) 
     {
@@ -1369,7 +1371,7 @@ else
         var cityDesc = key[1]["Desc"];
         var cityImages = key[1]["Images"];
 
-        if (cityName != travelCity)
+        if (cityName != levelBValue)
             continue;
 
         document.querySelector(".travel-description").innerHTML= cityDesc;
