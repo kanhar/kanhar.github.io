@@ -13,7 +13,6 @@ const map= {
 			"media/202006/104057215_133060775070303_4670667517972175779_n_17869086958841088.jpg",
 			"media/202006/104417750_151767823086214_225062124950818407_n_17849090876133008.jpg",
 			"media/202006/104354290_1106589833057352_8495259473274209064_n_17927212834402319.mp4",
-            "media/202006/104214808_114533623437871_6622390850053237469_n_17848314428170604.jpg", // This image serves as the video pic of preceding video
 			"media/202006/104409328_149575386647070_3775066328605472271_n_17865902761883214.jpg"
 		]
 	},
@@ -670,9 +669,7 @@ const map= {
 			"media/201912/80302748_1305887122946911_6801337308034248460_n_17857573240679198.jpg",
 			"media/201912/75601584_478306076205661_933612519744343688_n_17892802435439383.jpg",
 			"media/201912/78714027_477946722855240_7858324362324259213_n_18092222908126121.jpg",
-			"media/201912/75375737_1034586363557160_1499773721292271764_n_17858798635647028.jpg",
 			"media/201912/81741505_462376091379066_6003884229709468353_n_17874580297510405.mp4",
-            "media/201912/75375737_1034586363557160_1499773721292271764_n_17858798635647028.jpg",
 			"media/201912/PxUCKAJDMywXQE4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_17855885554708518.mp4",
             "media/201912/79643949_1067656280246420_2468514521874819008_n_17909318830390738.jpg",
             "media/201912/79363842_2520029254948277_882931198077673967_n_17903126596408310.jpg",
@@ -740,9 +737,7 @@ const map= {
 			"media/201912/75333964_167780397804319_496998206020161041_n_17870145187551580.jpg",
 			"media/201912/79165347_734277360316396_112769500199304937_n_17886535702459524.jpg",
 			"media/201912/fO2RaIYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_18009520816264378.mp4",
-            "media/201912/LimaSeaLions.jpg",
 			"media/201912/81601095_600905900720522_8722266493689675771_n_18121156969000914.mp4",
-            "media/201912/LimaMusic.jpg",
 		]
 	},
 	"Bogota, Colombia": {
@@ -758,9 +753,7 @@ const map= {
 			"media/201912/79380369_617572472395222_8270978536769195176_n_18017392621251205.jpg",
 			"media/201912/79542903_578575846052959_7056914722194641996_n_17855939437681969.jpg",
 			"media/201912/qXNhtC3PxUCKAJDMywXQE4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA_18069554149173048.mp4",
-            "media/201912/BogotaDanceDisplay.jpg",
 			"media/201912/81196377_710276729381413_6513243944463642070_n_18119344138053403.mp4",
-            "media/201912/BogotaFireworks.jpg",
             "media/201912/79477091_166167294621659_1419839039722651477_n_17842880488883092.jpg",
             "media/201912/79775828_1462215933932837_4293767841941290851_n_17865615970561708.jpg",
             "media/201912/79157095_883401728742489_5125466874533692803_n_17855761174680750.jpg",
@@ -784,9 +777,7 @@ const map= {
 			"media/201912/75487914_578787082946001_6435271676039999682_n_18086072836190400.jpg",
 			"media/201912/73387361_821821654931279_8576151401183426332_n_18034902403231254.jpg",
 			"media/201912/80252660_1032263410440713_2029906278502827975_n_17927682919347170.mp4",
-            "media/201912/PiajoVideoTownSquare.jpg",
 			"media/201912/80246599_447614675929193_2923789475663818026_n_17858345071637441.mp4",
-            "media/201912/PijaoCoffee.jpg",
 			"media/201912/79786013_2557991850985075_2323940757339307554_n_17857002127661531.jpg",
 			"media/201912/76889418_2181871372107714_8100759623626801749_n_17916648892371686.jpg"
 		]
@@ -838,8 +829,7 @@ const map= {
         "Country": "Colombia",
         "Images": [
 			"media/201912/80572296_177493626774669_5346963334415573829_n_17847903877782167.jpg",
-			"media/201912/79957087_153633025923980_3198992186363564210_n_18047111617206099.mp4",
-            "media/201912/AdrienHorseVideo.jpg",            
+			"media/201912/79957087_153633025923980_3198992186363564210_n_18047111617206099.mp4",     
 			"media/201912/75576724_2791720157557799_7041462848138858557_n_18095946160112347.jpg",
 			"media/201912/78948020_473902156596381_33906340592219714_n_17873248834510355.jpg",
 			"media/201912/72346103_1153278401532238_1561033654132451793_n_17901497770407134.jpg",
@@ -1299,13 +1289,13 @@ const queryString = window.location.search;
 const urlParams   = new URLSearchParams(queryString);    
 const datas = Object.entries(map);
 
-const travelCity  = urlParams.get('travel_city');    
-const travelCountry  = urlParams.get('travel_country');  
+const travelCity  = urlParams.get('levelB');    
+const travelCountry  = urlParams.get('levelA');  
 
 var headerOutput;
 var worldHref = '<a href="travel.html">World</a>';
-var countryHref = '<a href="travel.html?travel_country=' + travelCountry + '">' + travelCountry +'</a>';
-var cityHref = '<a href="travelContent.html?travel_country=' + travelCountry + '&travel_city='+travelCity+'">'+travelCity+'</a>';
+var countryHref = '<a href="travel.html?levelA=' + travelCountry + '">' + travelCountry +'</a>';
+var cityHref = '<a href="travelContent.html?levelA=' + travelCountry + '&levelB='+travelCity+'">'+travelCity+'</a>';
 if (travelCountry != null && travelCity != null)
 {
     headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
@@ -1340,7 +1330,7 @@ if(page == 'travel.html') {
                 countriesDisplayed.add(cityCountry);
 
             output += `
-            <a href="travel.html?travel_country=${cityCountry}" class="item">
+            <a href="travel.html?levelA=${cityCountry}" class="item">
                 <div class="img-container">
                     <img src="${cityImag}" alt="">
                 </div>
@@ -1349,21 +1339,17 @@ if(page == 'travel.html') {
             `;
         }
         // Level 2: Show only a specific Country
-        else
-        {
-            if (travelCountry != cityCountry)
-            {
-                continue;
-            }
-            output += `
-            <a href="travelContent.html?travel_country=${cityCountry}&travel_city=${cityName}" class="item">
-                <div class="img-container">
-                    <img src="${cityImag}" alt="">
-                </div>
-                <span>${cityName}</span>
-            </a>
-            `;
-        }
+        else if (travelCountry == cityCountry)
+		{
+			output += `
+			<a href="travelContent.html?levelA=${cityCountry}&levelB=${cityName}" class="item">
+				<div class="img-container">
+					<img src="${cityImag}" alt="">
+				</div>
+				<span>${cityName}</span>
+			</a>
+			`;
+		}
     }
 
     // Create element
@@ -1387,37 +1373,26 @@ else
             continue;
 
         document.querySelector(".travel-description").innerHTML= cityDesc;
-
-        var videoFound = false;    
+  
         for (let cityImag of cityImages) 
         {
-            if (videoFound)
+            if (cityImag.includes('.mp4'))
             {
                 output += `   
-                <a href="${videoName}" class='grid-item'>
+                <a href="${cityImag}" class='grid-item'>
 					<video width="550" height="450" controls>
-						<source src="${videoName}#t=3" type="video/mp4">
+						<source src="${cityImag}#t=3" type="video/mp4">
 					</video>
                 </a>
                 `;
-                videoFound = false;
             }
             else
             {
-                //If Video use next image in array as Video Thumbnail
-                if (cityImag.includes('.mp4'))
-                {
-                    videoFound = true;
-                    videoName = cityImag;
-                }
-                else
-                {
-                    output += `
-                    <a href="${cityImag}" class='grid-item' data-fancybox="gallery">
-                        <img src="${cityImag}">
-                    </a>
-                    `;
-                }
+				output += `
+				<a href="${cityImag}" class='grid-item' data-fancybox="gallery">
+					<img src="${cityImag}">
+				</a>
+				`;
             }
         }
     }
