@@ -1,5 +1,5 @@
 // Countries datas
-const countries= {
+const map= {
 	"Twin Falls, Idaho": {
 		"Desc": "Twin Falls, Idaho - Besides potatoes, Idaho has some remarkable waterfalls, and a refreshing greenery that welcomed us as we drove up from a very arid part of Utah. The downtown is full of character and has a nice river walk, with restaurants that have moved to socially distanced outdoor seating on cordoned off portions of the road. #carolynkanhar #indianjonesandlaracroft",
 		"Country": "US",
@@ -1297,7 +1297,7 @@ var page = path.split("/").pop();
 // Get the URL param
 const queryString = window.location.search;
 const urlParams   = new URLSearchParams(queryString);    
-const datas = Object.entries(countries);
+const datas = Object.entries(map);
 
 const travelCity  = urlParams.get('travel_city');    
 const travelCountry  = urlParams.get('travel_country');  
@@ -1395,8 +1395,10 @@ else
             {
                 output += `   
                 <a href="${videoName}" class='grid-item'>
-                    <img src="${cityImag}">
-                </a>   
+					<video width="550" height="450" controls>
+						<source src="${videoName}#t=3" type="video/mp4">
+					</video>
+                </a>
                 `;
                 videoFound = false;
             }
