@@ -1278,6 +1278,47 @@ const map= {
             "media/201905/60501552_682653762185701_6612114437086179699_n_17872271263374325.jpg",
             "media/201905/59571883_163403708024476_2391468042091801460_n_17845972564448636.jpg"
 		]
+	},
+	"Puerto Viejo de Talamanca": {
+		"Desc": "When Marco, Warren and I ..",
+        "Country": "Costa Rica",
+		"Images": [
+			"media/CostaRica/image008.jpg",
+			"media/CostaRica/image001.jpg",
+			"media/CostaRica/image002.jpg",
+			"media/CostaRica/image003.jpg",
+			"media/CostaRica/image004.jpg",
+			"media/CostaRica/image005.jpg",
+			"media/CostaRica/image006.jpg",
+			"media/CostaRica/image009.jpg",
+			"media/CostaRica/image010.jpg",
+			"media/CostaRica/image011.jpg",
+			"media/CostaRica/image012.jpg",
+			"media/CostaRica/image013.jpg",
+			"media/CostaRica/image014.jpg",
+			"media/CostaRica/image015.jpg",
+			"media/CostaRica/image016.jpg",
+			"media/CostaRica/image018.jpg",
+			"media/CostaRica/image019.jpg",
+			"media/CostaRica/image020.jpg",
+			"media/CostaRica/image021.jpg",
+			"media/CostaRica/image022.jpg",
+			"media/CostaRica/image023.jpg",
+			"media/CostaRica/image034.jpg",
+		]
+	},
+	"Bocas Del Toros": {
+		"Desc": "Oct 11, 2016 - I made my escape from Costa Rica into Panama. Foiled the police and immigration officers attempts to stop me. Currently going to use the Island of Bocas del Toros as my base of operations until things quiet down a bit.",
+        "Country": "Panama",
+		"Images": [
+			"media/Panama/image005.jpg",
+			"media/Panama/image007.jpg",
+			"media/Panama/image001.jpg",
+			"media/Panama/image002.jpg",
+			"media/Panama/image003.jpg",
+			"media/Panama/image004.jpg",
+			"media/Panama/image006.jpg",
+		]
 	}
 };
 
