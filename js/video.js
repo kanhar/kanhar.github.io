@@ -6,7 +6,7 @@ const countries= {
         "video_url": "https://www.youtube.com/embed/i1FQYjsghAI",
         "video_image": "img/videoSpillianShort.jpg"
     },
-    "Calcutta 02.19.2019": {
+    "Calcutta 02.19.2020": {
         "subtitle": "Kanhar Munshi & Carolyn Dawn Campo, Calcutta, India",
         "description": [
         ],
