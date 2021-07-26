@@ -23,7 +23,7 @@ const map= {
 		"Desc": "...",
 		"Cuisine": "South Indian",
         "Images": [
-			"media/food/ShrimpWithCurryLeaf/image001.jpg",
+			"media/food/ShrimpWithCurry/image001.jpg",
 		]
 	},
 	"Persian Lentil Stew": {
