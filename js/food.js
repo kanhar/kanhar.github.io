@@ -11,7 +11,7 @@ const map= {
 		]
 	},
 	"Kashmiri Kalia": {
-		"Desc": "Yeahh",
+		"Desc": "...",
 		"Cuisine": "Kashmiri",
         "Images": [
 			"media/food/Kalia/image009.jpg",
@@ -20,10 +20,38 @@ const map= {
 		]
 	},
 	"Keral Shrimp with Curry Leaf": {
-		"Desc": "Yeahh",
+		"Desc": "...",
 		"Cuisine": "South Indian",
         "Images": [
 			"media/food/ShrimpWithCurryLeaf/image001.jpg",
+		]
+	},
+	"Persian Lentil Stew": {
+		"Desc": "...",
+		"Cuisine": "Persian",
+        "Images": [
+			"media/food/PersianLentilStew/image001.jpg",
+		]
+	},
+	"Butter Chicken": {
+		"Desc": "...",
+		"Cuisine": "North Indian",
+        "Images": [
+			"media/food/ButterChicken/image001.jpg",
+		]
+	},
+	"Aijaco": {
+		"Desc": "...",
+		"Cuisine": "Colombian",
+        "Images": [
+			"media/food/Aijaco/image001.jpg",
+		]
+	},
+	"Poached Fish with Vinegar": {
+		"Desc": "...",
+		"Cuisine": "Colombian",
+        "Images": [
+			"media/food/Aijaco/image001.jpg",
 		]
 	}
 };
