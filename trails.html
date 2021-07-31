@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kanhar Munshi | Cuisine</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            document.querySelector("#nav-btn").addEventListener("click", () => {
+                document.querySelector("#main-header").classList.toggle("show");
+            });
+            
+            $.ajax({
+                url: "header.inc.html", success: function (result) {
+                    $("#main-header").html(result);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- nav-btn -->
+    <div id="nav-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Header: main-header -->
+    <header id="main-header" class="pl-1">
+    </header>
+
+    <section id="travel">
+        <div class="container travel-container">
+            <h2 class="travel-header">Trails</h2>       
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cWYP-5QNcAqpVChK3a1g8MYLUWIZYUZ-" width="800" height="640"></iframe>
+        </div>
+    </section>
+</body>
+</html>
