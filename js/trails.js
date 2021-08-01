@@ -1,11 +1,20 @@
 const countries= {
-    "Mt.Baker, WA": {
-        "subtitle": "Lake Tye Triathlon",
+    "Blueberry Hiking, WA": {
+        "subtitle": "See https://www.wta.org/go-outside/seasonal-hikes/fall-destinations/berry-picking-hikes",
         "description": [
         ],
         "frame_url": "https://www.google.com/maps/d/u/0/embed?mid=1cWYP-5QNcAqpVChK3a1g8MYLUWIZYUZ-",
+        "frame_image": "img/BlueBerry.jpg"
+    },
+    "Glacier Peak Resort, WA": {
+        "subtitle": "Pit stops en route to Glacier Peak Resort",
+        "description": [
+        ],
+        "frame_url": "https://www.google.com/maps/d/u/0/embed?mid=1wywyCo5zH1iQN9KoxbxynKQLmm6WgAV6",
         "frame_image": "img/Mt_Baker.jpg"
-    }    
+    }        
+
+    
 };
 
 var path = window.location.pathname;
