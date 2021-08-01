@@ -1,10 +1,10 @@
 const countries= {
-    "Spillian 10.19.2019": {
+    "Mt.Baker, WA": {
         "subtitle": "Lake Tye Triathlon",
         "description": [
         ],
         "frame_url": "https://www.google.com/maps/d/u/0/embed?mid=1cWYP-5QNcAqpVChK3a1g8MYLUWIZYUZ-",
-        "frame_image": "img/Mt_Baker"
+        "frame_image": "img/Mt_Baker.jpg"
     }    
 };
 
