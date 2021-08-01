@@ -53,6 +53,20 @@ const map= {
         "Images": [
 			"media/food/Aijaco/image001.jpg",
 		]
+	},
+	"Chicken Paprikash": {
+		"Desc": "<a href='https://www.tripadvisor.com/Restaurant_Review-g274887-d758267-Reviews-Kadar_Etkezde-Budapest_Central_Hungary.html'>Kadar_Etkezde</a>",
+		"Cuisine": "Hungarian",
+        "Images": [
+			"media/food/ChickenPaprikash/ChickenPaprikash.jpg",
+		]
+	},
+	"Bácskai Pork Risotto": {
+		"Desc": "<a href='https://www.tripadvisor.com/Restaurant_Review-g274887-d758267-Reviews-Kadar_Etkezde-Budapest_Central_Hungary.html'>Kadar_Etkezde</a>",
+		"Cuisine": "Hungarian",
+        "Images": [
+			"media/food/BacksaiRisotto/pork-risotto-bacskai2.jpg",
+		]
 	}
 };
 
