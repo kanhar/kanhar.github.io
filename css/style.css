@@ -22,8 +22,7 @@
 }
 
 a, button {
-    text-decoration: none;
-    color: #000;
+    color: rgb(83, 52, 196);
     cursor: pointer;
 }
 
