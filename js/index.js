@@ -43,33 +43,29 @@ const datas = Object.entries(map);
 const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
 
-var parentPage = "index.html";
 var headerOutput = "Work in Progress"
+let output  = '';
+var countriesDisplayed = new Set()
+for(let key of datas) 
+{
+	var Name = key[0];
+	var Link = key[1]["Link"];
+	var Imag = key[1]["Images"][0];
 
-// Render the image for the Parent Page
-if(page == parentPage) {
-    let output  = '';
-    var countriesDisplayed = new Set()
-    for(let key of datas) 
-    {
-        var Name = key[0];
-        var Link = key[1]["Link"];
-        var Imag = key[1]["Images"][0];
-
-		output += `
-		<a href="${Link}" class="item">
-			<div class="img-container">
-				<img src="${Imag}" alt="">
-			</div>
-			<span>${Name}</span>
-		</a>
-		`;
-    }
-
-    // Create element
-    const div     = document.createElement("div");
-    div.className = 'travel-items';
-    div.innerHTML = output;
-    document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
-    document.querySelector(".travel-header").innerHTML = headerOutput;
+	output += `
+	<a href="${Link}" class="item">
+		<div class="img-container">
+			<img src="${Imag}" alt="">
+		</div>
+		<span>${Name}</span>
+	</a>
+	`;
 }
+
+// Create element
+const div     = document.createElement("div");
+div.className = 'travel-items';
+div.innerHTML = output;
+document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
+document.querySelector(".travel-header").innerHTML = headerOutput;
+
