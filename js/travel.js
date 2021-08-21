@@ -1322,38 +1322,28 @@ const map= {
 	}
 };
 
-var path = window.location.pathname;
-var page = path.split("/").pop();
-
-// Get the URL param
-const queryString = window.location.search;
-const urlParams   = new URLSearchParams(queryString);    
-const datas = Object.entries(map);
-
+var parentPage 	   = "travel.html";
+const urlParams    = new URLSearchParams(window.location.search);    
 const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
-const isChild  = urlParams.get('child');
+const isChild      = urlParams.get('child');
 
-var parentPage = "travel.html";
+var level0Href 	= '<a href="' + parentPage + '">World</a>';
+var levelALink  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
+var levelBLink 	= '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
 
 var headerOutput;
-var worldHref = '<a href="' +  parentPage + '">World</a>';
-var countryHref = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
-var cityHref = '<a href="' + parentPage +'?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
-if (levelAValue != null && levelBValue != null)
-{
-    headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
+if (levelAValue != null && levelBValue != null){
+    headerOutput = level0Href + " --> " + levelALink + " --> " + levelBLink;
 }
-else if(levelAValue != null)
-{
-    headerOutput = worldHref + " --> " + countryHref;
+else if(levelAValue != null){
+    headerOutput = level0Href + " --> " + levelALink;
 }
-else
-{
-    headerOutput = worldHref;
+else{
+    headerOutput = level0Href;
 }
 
-// Render the image for the Parent Page
+const datas = Object.entries(map);
 if(isChild == null || isChild == '' || isChild == false) {
     let output  = '';
     var countriesDisplayed = new Set()
@@ -1441,9 +1431,9 @@ else
     }
 
     // Create and Inject new Div
-    const parentDiv = document.createElement("div");
-    parentDiv.className   = 'grid';
-    parentDiv.innerHTML= `
+    const parentDiv 	= document.createElement("div");
+    parentDiv.className = 'grid';
+    parentDiv.innerHTML = `
         <div class="grid-col grid-col--1"></div>
         <div class="grid-col grid-col--2"></div>
         ${output}
@@ -1452,5 +1442,4 @@ else
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
     document.querySelector(".travel-header").innerHTML= headerOutput;
     document.querySelector(".travel-header").style.textTransform = 'capitalize';
-
 }
