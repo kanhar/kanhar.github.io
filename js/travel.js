@@ -1335,12 +1335,11 @@ const levelAValue  = urlParams.get('levelA');
 const isChild  = urlParams.get('child');
 
 var parentPage = "travel.html";
-var childPage = "travel.html";
 
 var headerOutput;
 var worldHref = '<a href="' +  parentPage + '">World</a>';
 var countryHref = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
-var cityHref = '<a href="' + childPage +'?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
+var cityHref = '<a href="' + parentPage +'?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
 if (levelAValue != null && levelBValue != null)
 {
     headerOutput = worldHref + " --> " + countryHref + " --> " + cityHref;
@@ -1387,7 +1386,7 @@ if(isChild == null || isChild == '' || isChild == false) {
         else if (levelAValue == cityCountry)
 		{
 			output += `
-			<a href="${childPage}?levelA=${cityCountry}&levelB=${cityName}&child=true" class="item">
+			<a href="${parentPage}?levelA=${cityCountry}&levelB=${cityName}&child=true" class="item">
 				<div class="img-container">
 					<img src="${cityImag}" alt="">
 				</div>
