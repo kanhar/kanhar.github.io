@@ -30,6 +30,12 @@ const map= {
             "img/videoSpillianShort.jpg"
 		]
 	},
+	"Research": {
+		"Link": "research.html",
+        "Images": [
+            "img/machineLearning.jpeg"
+		]
+	},
 };
 
 var path = window.location.pathname;
