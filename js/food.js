@@ -80,9 +80,10 @@ const datas = Object.entries(map);
 
 const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
+const isChild  = urlParams.get('child');
 
 var parentPage = "food.html";
-var childPage = "foodContent.html";
+var childPage = "food.html";
 
 var headerOutput;
 var worldHref = '<a href="' +  parentPage + '">World</a>';
@@ -102,7 +103,7 @@ else
 }
 
 // Render the image for the Parent Page
-if(page == parentPage) {
+if(isChild == null || isChild == '' || isChild == false) {
     let output  = '';
     var countriesDisplayed = new Set()
     for(let key of datas) 
@@ -134,7 +135,7 @@ if(page == parentPage) {
         else if (levelAValue == Cuisine)
 		{
 			output += `
-			<a href="${childPage}?levelA=${Cuisine}&levelB=${dishName}" class="item">
+			<a href="${childPage}?levelA=${Cuisine}&levelB=${dishName}&child=true" class="item">
 				<div class="img-container">
 					<img src="${cityImag}" alt="">
 				</div>
