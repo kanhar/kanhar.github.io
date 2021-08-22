@@ -295,12 +295,14 @@ img {
 
 @media(max-width: 1250px) {
     #travel .travel-container .travel-items,
+    #parent .parent-container .parent-items
     #video .video-container .video-items {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media(max-width: 1150px) {
+    #travel .travel-container .travel-items,
     #travel .travel-container .travel-items,
     #video .video-container .video-items {
         grid-template-columns: repeat(2, 1fr);
