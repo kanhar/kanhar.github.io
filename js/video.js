@@ -33,10 +33,10 @@ if(videoName == null || videoName == '')
     });
 
     const div     = document.createElement("div");
-    div.className = 'video-items';
+    div.className = 'generic-items';
     div.innerHTML= output;
 
-    document.querySelector(".video-container").insertAdjacentElement("beforeend", div);
+    document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);
 }
 else
 {   
@@ -45,28 +45,24 @@ else
         return y[0] == videoName;
     });
         
-    var descriptions= found[1].description;
+    // var descriptions= found[1].description;
 
-    document.querySelector(".video-title").innerHTML                = found[0];
-    document.querySelector(".video-title").style.textTransform      = 'capitalize';
-    document.querySelector(".video-subtitle").innerHTML             = found[1].subtitle;
-    document.querySelector(".video-subtitle").style.textTransform   = 'capitalize';
-
-    let output=  '';
-    descriptions.forEach(description => {
-        output += `
-            <li>${description}</li>
-        `;
-    });
+    document.querySelector(".generic-header").innerHTML                 = found[0];
+    document.querySelector(".generic-header").style.textTransform       = 'capitalize';
+    document.querySelector(".generic-description").innerHTML            = found[1].subtitle;
+    document.querySelector(".generic-description").style.textTransform  = 'capitalize';
 
     const ul = document.createElement("ul");
-    ul.className   = 'video-text-description';
+
+    // ul.className   = 'video-text-description';
+
     ul.innerHTML= `
-        ${output}
         <div style="width: 95%; margin: 3.2rem auto;">
             <iframe width="100%" height="550" src="${found[1].video_url}" id="video-player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     `;
 
-    document.querySelector(".video-details-container").insertAdjacentElement("beforeend", ul);
+    document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("afterend", ul);
+    
+    // document.querySelector("#main-header").insertAdjacentElement('beforebegin', ul);
 }

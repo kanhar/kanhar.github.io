@@ -1388,10 +1388,10 @@ if(!isChild) {
 
     // Create element
     const div     = document.createElement("div");
-    div.className = 'travel-items';
+    div.className = 'generic-items';
     div.innerHTML = output;
-    document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
-    document.querySelector(".travel-header").innerHTML = headerOutput;
+    document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);
+    document.querySelector(".generic-header").innerHTML = headerOutput;
 }
 else
 {
@@ -1435,8 +1435,9 @@ else
         ${output}
     `;
 	
-	document.querySelector(".travel-description").innerHTML = Desc;
-    document.querySelector(".travel-header").innerHTML= headerOutput;
-    document.querySelector(".travel-header").style.textTransform = 'capitalize';
-	document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
+	document.querySelector(".generic-description").innerHTML = Desc;
+    document.querySelector(".generic-header").innerHTML= headerOutput;
+    document.querySelector(".generic-header").style.textTransform = 'capitalize';
+	
+	document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("beforeend", parentDiv);
 }
