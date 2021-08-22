@@ -1,5 +1,5 @@
 // Countries datas
-const map= {
+const hashMap= {
 	"Twin Falls, Idaho": {
 		"Desc": "Twin Falls, Idaho - Besides potatoes, Idaho has some remarkable waterfalls, and a refreshing greenery that welcomed us as we drove up from a very arid part of Utah. The downtown is full of character and has a nice river walk, with restaurants that have moved to socially distanced outdoor seating on cordoned off portions of the road. #carolynkanhar #indianjonesandlaracroft",
 		"Country": "US",
@@ -1343,7 +1343,7 @@ else{
     headerOutput = level0Href;
 }
 
-const datas = Object.entries(map);
+const datas = Object.entries(hashMap);
 if(!isChild) {
     let output  = '';
     var countriesDisplayed = new Set()
@@ -1395,40 +1395,36 @@ if(!isChild) {
 }
 else
 {
-    let output=  '';
-    for(let key of datas) 
-    {
-        var Name = key[0];
-        var Desc = key[1]["Desc"];
-        var Images = key[1]["Images"];
+	var found = Object.entries(hashMap).find(y => {
+        return y[0] == levelBValue;
+    });
 
-        if (Name != levelBValue)
-            continue;
+	var Name = found[0];
+	var Desc = found[1]["Desc"];
+	var Images = found[1]["Images"];
 
-        document.querySelector(".travel-description").innerHTML= Desc;
-  
-        for (let Imag of Images) 
-        {
-            if (Imag.includes('.mp4'))
-            {
-                output += `   
-                <a href="${Imag}" class='grid-item' data-fancybox="gallery">
-					<video width="550" height="450" controls>
-						<source src="${Imag}#t=3" type="video/mp4">
-					</video>
-                </a>
-                `;
-            }
-            else
-            {
-				output += `
-				<a href="${Imag}" class='grid-item' data-fancybox="gallery">
-					<img src="${Imag}">
-				</a>
-				`;
-            }
-        }
-    }
+	let output=  '';
+	for (let Imag of Images) 
+	{
+		if (Imag.includes('.mp4'))
+		{
+			output += `   
+			<a href="${Imag}" class='grid-item' data-fancybox="gallery">
+				<video width="550" height="450" controls>
+					<source src="${Imag}#t=3" type="video/mp4">
+				</video>
+			</a>
+			`;
+		}
+		else
+		{
+			output += `
+			<a href="${Imag}" class='grid-item' data-fancybox="gallery">
+				<img src="${Imag}">
+			</a>
+			`;
+		}
+	}
 
     // Create and Inject new Div
     const parentDiv 	= document.createElement("div");
@@ -1438,8 +1434,9 @@ else
         <div class="grid-col grid-col--2"></div>
         ${output}
     `;
-
-    document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
+	
+	document.querySelector(".travel-description").innerHTML = Desc;
     document.querySelector(".travel-header").innerHTML= headerOutput;
     document.querySelector(".travel-header").style.textTransform = 'capitalize';
+	document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
 }

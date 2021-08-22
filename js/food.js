@@ -97,12 +97,12 @@ else
 if(!isChild) {
     let output  = '';
     var countriesDisplayed = new Set()
-    for(let key of Object.entries(hashMap)) 
+    for(let iRow of Object.entries(hashMap)) 
     {
-        var Name = key[0];
-        var Desc = key[1]["Desc"];
-        var Imag = key[1]["Images"][0];
-        var Cuisine = key[1]["Cuisine"];
+        var Name = iRow[0];
+        var Desc = iRow[1]["Desc"];
+        var Imag = iRow[1]["Images"][0];
+        var Cuisine = iRow[1]["Cuisine"];
 
         // Level 1. Show all Countries
         if (levelAValue == null)      
@@ -145,42 +145,37 @@ if(!isChild) {
 }
 else
 {
-    let output=  '';
-    for(let key of Object.entries(hashMap)) 
+    var found = Object.entries(hashMap).find(y => {
+        return y[0] == levelBValue;
+    });
+
+    var Name = found[0];
+    var Desc = found[1]["Desc"];
+    var Images = found[1]["Images"];
+
+    let output =  '';
+    for (let Imag of Images) 
     {
-        var Name = key[0];
-        var Desc = key[1]["Desc"];
-        var Images = key[1]["Images"];
-
-        if (Name != levelBValue)
-            continue;
-
-        document.querySelector(".travel-description").innerHTML= Desc;
-  
-        for (let Imag of Images) 
+        if (Imag.includes('.mp4'))
         {
-            if (Imag.includes('.mp4'))
-            {
-                output += `   
-                <a href="${Imag}" class='grid-item' data-fancybox="gallery">
-					<video width="550" height="450" controls>
-						<source src="${Imag}#t=3" type="video/mp4">
-					</video>
-                </a>
-                `;
-            }
-            else
-            {
-				output += `
-				<a href="${Imag}" class='grid-item' data-fancybox="gallery">
-					<img src="${Imag}">
-				</a>
-				`;
-            }
+            output += `   
+            <a href="${Imag}" class='grid-item' data-fancybox="gallery">
+                <video width="550" height="450" controls>
+                    <source src="${Imag}#t=3" type="video/mp4">
+                </video>
+            </a>
+            `;
+        }
+        else
+        {
+            output += `
+            <a href="${Imag}" class='grid-item' data-fancybox="gallery">
+                <img src="${Imag}">
+            </a>
+            `;
         }
     }
 
-    // Create and Inject new Div
     const parentDiv = document.createElement("div");
     parentDiv.className   = 'grid';
     parentDiv.innerHTML= `
@@ -188,7 +183,8 @@ else
         <div class="grid-col grid-col--2"></div>
         ${output}
     `;
-
+    
+    document.querySelector(".travel-description").innerHTML= Desc;
     document.querySelector(".travel-container").insertAdjacentElement("beforeend", parentDiv);
     document.querySelector(".travel-header").innerHTML= headerOutput;
     document.querySelector(".travel-header").style.textTransform = 'capitalize';
