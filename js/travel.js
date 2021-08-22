@@ -1330,7 +1330,7 @@ const isChild      = urlParams.get('child');
 
 var level0Href 	= '<a href="' + parentPage + '">World</a>';
 var levelALink  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
-var levelBLink 	= '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
+var levelBLink 	= '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'&child=true">'+levelBValue+'</a>';
 
 var headerOutput;
 if (levelAValue != null && levelBValue != null){

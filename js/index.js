@@ -70,8 +70,8 @@ for(let key of datas)
 
 // Create element
 const div     = document.createElement("div");
-div.className = 'travel-items';
+div.className = 'generic-items';
 div.innerHTML = output;
-document.querySelector(".travel-container").insertAdjacentElement("beforeend", div);
-document.querySelector(".travel-header").innerHTML = headerOutput;
+document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);
+document.querySelector(".generic-header").innerHTML = headerOutput;
 
