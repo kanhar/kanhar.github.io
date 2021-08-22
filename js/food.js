@@ -140,7 +140,7 @@ if(!isChild) {
     const div     = document.createElement("div");
     div.className = 'generic-items';
     div.innerHTML = output;
-    document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);
+    document.querySelector("#parent .generic-leaf-container").insertAdjacentElement("beforeend", div);
     document.querySelector(".generic-header").innerHTML = headerOutput;
 }
 else
