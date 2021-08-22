@@ -28,9 +28,9 @@ if (!levelAValue)
     });
 
     const div     = document.createElement("div");
-    div.className = 'video-items';
+    div.className = 'generic-items';
     div.innerHTML = output;
-    document.querySelector(".video-container").insertAdjacentElement("beforeend", div);   
+    document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);   
 }    
 else
 {
@@ -38,11 +38,6 @@ else
         return y[0] == levelAValue;
     });
         
-    document.querySelector(".video-title").innerHTML                = found[0];
-    document.querySelector(".video-title").style.textTransform      = 'capitalize';
-    document.querySelector(".video-subtitle").innerHTML             = found[1].subtitle;
-    document.querySelector(".video-subtitle").style.textTransform   = 'capitalize';
-
     const ul = document.createElement("ul");
     ul.className   = 'video-text-description';
     ul.innerHTML= `
@@ -51,5 +46,9 @@ else
         </section>
         </div>
     `;
-    document.querySelector(".video-details-container").insertAdjacentElement("beforeend", ul);
+
+    document.querySelector(".generic-header").innerHTML= found[0];
+    document.querySelector(".generic-description").innerHTML = found[1].subtitle;
+    document.querySelector(".generic-header").style.textTransform = 'capitalize'	
+	document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("beforeend", ul);
 }
