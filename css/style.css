@@ -8,6 +8,7 @@
     --pauta-font: 'Patua One', cursive;
     --lato-font: 'Lato', sans-serif;
 }
+
 /* Reset */
 * {
     margin: 0;
@@ -139,21 +140,21 @@ img {
 }
 
 /* Section: travel */
-#travel,
-#video,
+#parent,
+#parent,
 #main,
-#travel-photos-section-id,
+#generic-container,
 #HomePage,
-#video-details {
+#generic-container {
     margin-left: 275px;
     padding: 1% 1% 0 1%;
 }
 
-#travel .travel-container > h2,
-#video .video-container > h2,
-#travel-photos-section-id .travel-container > h2,
-.video-title,
-.video-subtitle {
+#parent .generic-leaf-container > h2,
+#parent .generic-leaf-container > h2,
+#generic-container .generic-leaf-container > h2,
+.generic-header,
+.generic-description {
     font-family: var(--pauta-font);
     margin-bottom: 1.2rem;
     font-size: 2rem;
@@ -161,21 +162,21 @@ img {
     text-transform: uppercase;
 }
 
-#travel .travel-container .travel-items,
-#video .video-container .video-items {
+#parent .generic-leaf-container .generic-items,
+#parent .generic-leaf-container .generic-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
 
-#travel .travel-container .travel-items .item img:hover,
-#video .video-container .video-items .item img:hover {
+#parent .generic-leaf-container .generic-items .item img:hover,
+#parent .generic-leaf-container .generic-items .item img:hover {
     transition: .3s all;
     opacity: .5;
 }
 
-#travel .travel-container .travel-items .item span,
-#video .video-container .video-items .item span  {
+#parent .generic-leaf-container .generic-items .item span,
+#parent .generic-leaf-container .generic-items .item span  {
     display: block;
     text-align: center;
     font-family: var(--pauta-font);
@@ -253,14 +254,14 @@ img {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Section: travel-photos-section-id */
-#travel-photos-section-id .travel-container .grid .grid-item:hover {
+/* Section: generic-container */
+#generic-container .generic-leaf-container .grid .grid-item:hover {
     cursor: pointer;
     opacity: .4;
     transition: .3s all;
 }
 
-#travel-photos-section-id .travel-container .grid .grid-item::after:hover {
+#generic-container .generic-leaf-container .grid .grid-item::after:hover {
     cursor: pointer;
     content: '';
     position: absolute;
@@ -271,51 +272,51 @@ img {
     transition: .3s all;
 }
 
-/* Section: video-details */
-#video-details .video-details-container ul {
+/* Section: generic-container */
+#generic-container .generic-container-container ul {
     list-style: disc;
     margin-left: 1.5%;
 }
 
-#video-details .video-details-container ul li {
+#generic-container .generic-container-container ul li {
     font-family: var(--lato-font);
     padding: .5rem 0;
 }
 
-.video-subtitle {
+.generic-description {
     font-size: 1.2rem;   
 }
 
 /* For smaller devices */
 @media(max-width: 1400px) {
-    #video-details .video-details-container ul {
+    #generic-container .generic-container-container ul {
         margin-left: 1.75%;
     }
 }
 
 @media(max-width: 1250px) {
-    #travel .travel-container .travel-items,
+    #parent .generic-leaf-container .generic-items,
     #parent .parent-container .parent-items
-    #video .video-container .video-items {
+    #parent .generic-leaf-container .generic-items {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media(max-width: 1150px) {
-    #travel .travel-container .travel-items,
-    #travel .travel-container .travel-items,
-    #video .video-container .video-items {
+    #parent .generic-leaf-container .generic-items,
+    #parent .generic-leaf-container .generic-items,
+    #parent .generic-leaf-container .generic-items {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #video-details .video-details-container ul {
+    #generic-container .generic-container-container ul {
         margin-left: 2%;
     }
 }
 
 @media(max-width: 900px) {
-    #travel .travel-container .travel-items,
-    #video .video-container .video-items {
+    #parent .generic-leaf-container .generic-items,
+    #parent .generic-leaf-container .generic-items {
         grid-template-columns: 1fr;
     }
 
@@ -332,19 +333,19 @@ img {
         grid-column: 1/span 1;
     }
 
-    #video-details .video-details-container ul {
+    #generic-container .generic-container-container ul {
         margin-left: 3%;
     }
 }
 
 @media(max-width: 800px) {
-    #video-details .video-details-container ul {
+    #generic-container .generic-container-container ul {
         margin-left: 3.5%;
     }
 }
 
 @media(max-width: 740px) {
-    #video-details .video-details-container ul {
+    #generic-container .generic-container-container ul {
         margin-left: 4%;
     }
 }
@@ -369,11 +370,11 @@ img {
         transition: .3s all;
     }
 
-    #travel,
-    #video,
+    #parent,
+    #parent,
     #main,
-    #travel-photos-section-id,
-    #video-details {
+    #generic-container,
+    #generic-container {
         margin-left: 0;
     }
 }
