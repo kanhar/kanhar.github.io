@@ -1324,8 +1324,8 @@ const map= {
 
 var parentPage 	   = "travel.html";
 const urlParams    = new URLSearchParams(window.location.search);    
-const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
+const levelBValue  = urlParams.get('levelB');    
 const isChild      = urlParams.get('child');
 
 var level0Href 	= '<a href="' + parentPage + '">World</a>';
@@ -1344,43 +1344,43 @@ else{
 }
 
 const datas = Object.entries(map);
-if(isChild == null || isChild == '' || isChild == false) {
+if(!isChild) {
     let output  = '';
     var countriesDisplayed = new Set()
     for(let key of datas) 
     {
-        var cityName = key[0];
-        var cityDesc = key[1]["Desc"];
-        var cityImag = key[1]["Images"][0];
-        var cityCountry = key[1]["Country"];
+        var Name = key[0];
+        var Desc = key[1]["Desc"];
+        var Imag = key[1]["Images"][0];
+        var Country = key[1]["Country"];
 
         // Level 1. Show all Countries
         if (levelAValue == null)      
         {
             //Display a country on Main page only once
-            if(countriesDisplayed.has(cityCountry))
+            if(countriesDisplayed.has(Country))
                 continue;
             else
-                countriesDisplayed.add(cityCountry);
+                countriesDisplayed.add(Country);
 
             output += `
-            <a href="${parentPage}?levelA=${cityCountry}" class="item">
+            <a href="${parentPage}?levelA=${Country}" class="item">
                 <div class="img-container">
-                    <img src="${cityImag}" alt="">
+                    <img src="${Imag}" alt="">
                 </div>
-                <span>${cityCountry}</span>
+                <span>${Country}</span>
             </a>
             `;
         }
         // Level 2: Show only a specific Country
-        else if (levelAValue == cityCountry)
+        else if (levelAValue == Country)
 		{
 			output += `
-			<a href="${parentPage}?levelA=${cityCountry}&levelB=${cityName}&child=true" class="item">
+			<a href="${parentPage}?levelA=${Country}&levelB=${Name}&child=true" class="item">
 				<div class="img-container">
-					<img src="${cityImag}" alt="">
+					<img src="${Imag}" alt="">
 				</div>
-				<span>${cityName}</span>
+				<span>${Name}</span>
 			</a>
 			`;
 		}
@@ -1398,23 +1398,23 @@ else
     let output=  '';
     for(let key of datas) 
     {
-        var cityName = key[0];
-        var cityDesc = key[1]["Desc"];
-        var cityImages = key[1]["Images"];
+        var Name = key[0];
+        var Desc = key[1]["Desc"];
+        var Images = key[1]["Images"];
 
-        if (cityName != levelBValue)
+        if (Name != levelBValue)
             continue;
 
-        document.querySelector(".travel-description").innerHTML= cityDesc;
+        document.querySelector(".travel-description").innerHTML= Desc;
   
-        for (let cityImag of cityImages) 
+        for (let Imag of Images) 
         {
-            if (cityImag.includes('.mp4'))
+            if (Imag.includes('.mp4'))
             {
                 output += `   
-                <a href="${cityImag}" class='grid-item'>
+                <a href="${Imag}" class='grid-item' data-fancybox="gallery">
 					<video width="550" height="450" controls>
-						<source src="${cityImag}#t=3" type="video/mp4">
+						<source src="${Imag}#t=3" type="video/mp4">
 					</video>
                 </a>
                 `;
@@ -1422,8 +1422,8 @@ else
             else
             {
 				output += `
-				<a href="${cityImag}" class='grid-item' data-fancybox="gallery">
-					<img src="${cityImag}">
+				<a href="${Imag}" class='grid-item' data-fancybox="gallery">
+					<img src="${Imag}">
 				</a>
 				`;
             }
