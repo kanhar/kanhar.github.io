@@ -1494,11 +1494,7 @@ const hashMap= {
 			"media/Tbilisi/image051.jpg",
 			"media/Tbilisi/image052.jpg",
 			"media/Tbilisi/image053.jpg",
-			"media/Tbilisi/image054.jpg",
-			"media/Tbilisi/VID_20200128_191756.mp4",
-			"media/Tbilisi/VID_20200129_201351.mp4",
-			"media/Tbilisi/VID_20200130_175811.mp4",
-			"media/Tbilisi/VID_20200131_222536.mp4",		
+			"media/Tbilisi/image054.jpg",		
 		]
 	}
 };
