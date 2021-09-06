@@ -11,9 +11,28 @@ const hashMap= {
     }            
 };
 
+// Create Header Links
 var parentPage 	  = "trails.html";
 const urlParams   = new URLSearchParams(window.location.search);
-const levelAValue = urlParams.get('levelA');  
+const levelAValue  = urlParams.get('levelA');  
+const levelBValue  = urlParams.get('levelB');    
+
+var level0Href  = '<a href="' + parentPage + '">Trails</a>';
+var levelAHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
+var levelBHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
+var headerOutput;
+if (levelAValue != null && levelBValue != null)
+{
+    headerOutput = level0Href + " --> " + levelAHref + " --> " + levelBHref;
+}
+else if(levelAValue != null)
+{
+    headerOutput = level0Href + " --> " + levelAHref;
+}
+else
+{
+    headerOutput = level0Href;
+}
 
 if (!levelAValue) 
 {
@@ -31,6 +50,7 @@ if (!levelAValue)
     div.className = 'generic-items';
     div.innerHTML = output;
     document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);   
+
 }    
 else
 {
@@ -47,8 +67,8 @@ else
         </div>
     `;
 
-    document.querySelector(".generic-header").innerHTML= found[0];
-    document.querySelector(".generic-description").innerHTML = found[1].subtitle;
-    document.querySelector(".generic-header").style.textTransform = 'capitalize'	
+    document.querySelector(".generic-description").innerHTML = found[1].subtitle;	
 	document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("beforeend", ul);
 }
+
+document.querySelector(".generic-header").innerHTML= headerOutput;

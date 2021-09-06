@@ -1503,15 +1503,15 @@ const hashMap= {
 	}
 };
 
+// Create Header Links
 var parentPage 	   = "travel.html";
 const urlParams    = new URLSearchParams(window.location.search);    
 const levelAValue  = urlParams.get('levelA');  
 const levelBValue  = urlParams.get('levelB');    
-const isChild      = urlParams.get('child');
 
-var level0Href 	= '<a href="' + parentPage + '">World</a>';
+var level0Href 	= '<a href="' + parentPage + '">TRAVEL</a>';
 var levelALink  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
-var levelBLink 	= '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'&child=true">'+levelBValue+'</a>';
+var levelBLink 	= '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
 
 var headerOutput;
 if (levelAValue != null && levelBValue != null){
@@ -1525,7 +1525,8 @@ else{
 }
 
 const datas = Object.entries(hashMap);
-if(!isChild) {
+if (!levelAValue || !levelBValue)  
+{
     let output  = '';
     var countriesDisplayed = new Set()
     for(let key of datas) 
@@ -1557,7 +1558,7 @@ if(!isChild) {
         else if (levelAValue == Country)
 		{
 			output += `
-			<a href="${parentPage}?levelA=${Country}&levelB=${Name}&child=true" class="item">
+			<a href="${parentPage}?levelA=${Country}&levelB=${Name}" class="item">
 				<div class="img-container">
 					<img src="${Imag}" alt="">
 				</div>
@@ -1571,8 +1572,8 @@ if(!isChild) {
     const div     = document.createElement("div");
     div.className = 'generic-items';
     div.innerHTML = output;
+
     document.querySelector(".generic-leaf-container").insertAdjacentElement("beforeend", div);
-    document.querySelector(".generic-header").innerHTML = headerOutput;
 }
 else
 {
@@ -1617,8 +1618,9 @@ else
     `;
 	
 	document.querySelector(".generic-description").innerHTML = Desc;
-    document.querySelector(".generic-header").innerHTML= headerOutput;
-    document.querySelector(".generic-header").style.textTransform = 'capitalize';
+
 	
 	document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("beforeend", parentDiv);
 }
+
+document.querySelector(".generic-header").innerHTML= headerOutput;

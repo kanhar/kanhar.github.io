@@ -15,17 +15,37 @@ const countries= {
     },    
 };
 
-const urlParams   = new URLSearchParams(window.location.search);
-const videoName   = urlParams.get('video_name');
+// Create Header Links
+var parentPage  = "video.html";
+const urlParams     = new URLSearchParams(window.location.search);    
+const levelAValue   = urlParams.get('levelA');  
+const levelBValue   = urlParams.get('levelB');    
 
-if(videoName == null || videoName == '') 
-{   
+var level0Href  = '<a href="' + parentPage + '">Video</a>';
+var levelAHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
+var levelBHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
+var headerOutput;
+if (levelAValue != null && levelBValue != null)
+{
+    headerOutput = level0Href + " --> " + levelAHref + " --> " + levelBHref;
+}
+else if(levelAValue != null)
+{
+    headerOutput = level0Href + " --> " + levelAHref;
+}
+else
+{
+    headerOutput = level0Href;
+}
+
+if (!levelAValue) 
+{
     let output  = '';
     const datas = Object.entries(countries);
 
     datas.forEach(d=> {
         output += `
-            <a href="video.html?video_name=${d[0]}" class="item">
+            <a href="video.html?levelA=${d[0]}" class="item">
                 <img src="${d[1].video_image}" alt="">
                 <span>${d[0]}</span>
             </a>
@@ -42,19 +62,13 @@ else
 {   
     var x= Object.entries(countries);
     var found= x.find(y => {
-        return y[0] == videoName;
+        return y[0] == levelAValue;
     });
-        
-    // var descriptions= found[1].description;
 
-    document.querySelector(".generic-header").innerHTML                 = found[0];
-    document.querySelector(".generic-header").style.textTransform       = 'capitalize';
     document.querySelector(".generic-description").innerHTML            = found[1].subtitle;
     document.querySelector(".generic-description").style.textTransform  = 'capitalize';
 
     const ul = document.createElement("ul");
-
-    // ul.className   = 'video-text-description';
 
     ul.innerHTML= `
         <div style="width: 95%; margin: 3.2rem auto;">
@@ -63,6 +77,6 @@ else
     `;
 
     document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("afterend", ul);
-    
-    // document.querySelector("#main-header").insertAdjacentElement('beforebegin', ul);
 }
+
+document.querySelector(".generic-header").innerHTML= headerOutput;

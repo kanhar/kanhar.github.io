@@ -70,13 +70,13 @@ const hashMap= {
 	}
 };
 
+// Create Header Links
+var parentPage  = "food.html";
 const urlParams     = new URLSearchParams(window.location.search);    
 const levelAValue   = urlParams.get('levelA');  
 const levelBValue   = urlParams.get('levelB');    
-const isChild       = urlParams.get('child');
 
-var parentPage  = "food.html";
-var level0Href  = '<a href="' + parentPage + '">World</a>';
+var level0Href  = '<a href="' + parentPage + '">Food</a>';
 var levelAHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '">' + levelAValue +'</a>';
 var levelBHref  = '<a href="' + parentPage + '?levelA=' + levelAValue + '&levelB='+levelBValue+'">'+levelBValue+'</a>';
 var headerOutput;
@@ -93,8 +93,8 @@ else
     headerOutput = level0Href;
 }
 
-// Render the image for the Parent Page
-if(!isChild) {
+if (!levelAValue || !levelBValue)  
+{
     let output  = '';
     var countriesDisplayed = new Set()
     for(let iRow of Object.entries(hashMap)) 
@@ -126,7 +126,7 @@ if(!isChild) {
         else if (levelAValue == Cuisine)
 		{
 			output += `
-			<a href="${parentPage}?levelA=${Cuisine}&levelB=${Name}&child=true" class="item">
+			<a href="${parentPage}?levelA=${Cuisine}&levelB=${Name}" class="item">
 				<div class="img-container">
 					<img src="${Imag}" alt="">
 				</div>
@@ -141,7 +141,6 @@ if(!isChild) {
     div.className = 'generic-items';
     div.innerHTML = output;
     document.querySelector("#parent .generic-leaf-container").insertAdjacentElement("beforeend", div);
-    document.querySelector(".generic-header").innerHTML = headerOutput;
 }
 else
 {
@@ -186,8 +185,7 @@ else
     `;
 	
 	document.querySelector(".generic-description").innerHTML = Desc;
-    document.querySelector(".generic-header").innerHTML= headerOutput;
-    document.querySelector(".generic-header").style.textTransform = 'capitalize';
-	
 	document.querySelector("#generic-container .generic-leaf-container").insertAdjacentElement("beforeend", parentDiv);
 }
+
+document.querySelector(".generic-header").innerHTML = headerOutput;
