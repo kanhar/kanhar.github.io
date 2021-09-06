@@ -28,6 +28,17 @@ a, button {
     cursor: pointer;
 }
 
+div.research a:link {
+    color: maroon;
+    text-decoration: underline;
+}
+
+div.research a:visited {
+    color: maroon;
+    text-decoration: underline;
+}
+
+
 ul {
     list-style: none;
 }

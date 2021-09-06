@@ -9,7 +9,7 @@ const map= {
 	"Trails": {
 		"Link": "trails.html",
         "Images": [
-            "img/Mt_Baker.jpg"
+            "media/trails/Mt_Elinor.jpg"
 		]
 	},
 	"Food": {
