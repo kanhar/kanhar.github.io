@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <title>Kanhar Munshi | Travel</title>
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
             document.querySelector("#nav-btn").addEventListener("click", () => {
@@ -36,31 +36,6 @@
             width: 100% !important;
             height: auto;
         }
-
-        #lightbox {
-            position: fixed;
-            z-index: 1000;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, .8);
-            display: none;
-        }
-        
-        #lightbox img {
-            max-width: 50%;
-            max-height: auto;
-            padding: 10px;
-            background-color: rgb(245, 239, 239);
-            border: 2px solid rgb(10, 9, 9);
-        }
-
-        #lightbox.active {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
     </style>
 </head>
 <body>
@@ -90,7 +65,7 @@
     </section>
 
     <script src="js/travel.js"></script>
-    <script src="js/colcade.js"></script>
+    <script src="lib/colcade.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script>
