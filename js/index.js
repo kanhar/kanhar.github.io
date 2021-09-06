@@ -12,7 +12,7 @@ const map= {
             "img/Mt_Baker.jpg"
 		]
 	},
-	"Cuisine": {
+	"Food": {
 		"Link": "food.html",
         "Images": [
             "media/food/ShrimpWithCurry/image001.jpg"
