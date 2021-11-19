@@ -9,6 +9,22 @@
     --lato-font: 'Lato', sans-serif;
 }
 
+/* Grid */
+
+.grid {
+    display: flex;
+}
+
+.grid-col  {
+    flex: 1;
+    padding: 0 .15em;
+}
+
+.grid .grid-item img {
+    width: 100% !important;
+    height: auto;
+}
+
 /* Reset */
 * {
     margin: 0;

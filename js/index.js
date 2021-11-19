@@ -36,6 +36,12 @@ const map= {
             "img/machineLearning.jpeg"
 		]
 	},
+	"Carpentry": {
+		"Link": "carpentry.html",
+        "Images": [
+            "media/carpentry/table/image008.jpg"
+		]
+	}
 };
 
 var path = window.location.pathname;
