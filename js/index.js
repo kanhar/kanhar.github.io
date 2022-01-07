@@ -41,6 +41,12 @@ const map= {
         "Images": [
             "media/carpentry/table/image008.jpg"
 		]
+	},
+	"Code": {
+		"Link": "https://kanhar.github.io/leetcode",
+        "Images": [
+            "img/machineLearning.jpeg"
+		]
 	}
 };
 
