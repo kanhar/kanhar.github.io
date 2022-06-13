@@ -3,7 +3,7 @@ const countries= {
         "subtitle": "Kanhar Munshi & Carolyn Dawn Campo, Fleischmann, NY",
         "description": [
         ],
-        "video_url": "https://www.youtube.com/watch?v=YvGxuIvkIo4",
+        "video_url": "https://www.youtube.com/embed/YvGxuIvkIo4",
         "video_image": "img/videoSpillianShort.jpg"
     },
     "Calcutta 02.19.2020": {
