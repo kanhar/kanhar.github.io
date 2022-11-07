@@ -31,7 +31,7 @@ const map= {
 		]
 	},
 	"Research": {
-		"Link": "research.html",
+		"Link": "blog.html",
         "Images": [
             "img/machineLearning.jpeg"
 		]

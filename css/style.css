@@ -7,6 +7,7 @@
     --quicksand-font: 'Quicksand', sans-serif;
     --pauta-font: 'Patua One', cursive;
     --lato-font: 'Lato', sans-serif;
+    --serif-font: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 /* Grid */
@@ -186,7 +187,17 @@ img {
     margin-bottom: 1.2rem;
     font-size: 2rem;
     color: black;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+.blog-header,
+.blog-description {
+    max-width: 600px;
+    font-family: var(--quicksand-font);
+    font-size: small;
+    margin-bottom: 1.2rem;
+    font-size: 0.8rem;
+    color: black;
+    text-transform:none;
 }
 
 #parent .generic-leaf-container .generic-items,
