@@ -1,5 +1,11 @@
 // Countries datas
 const map= {
+	"Blog": {
+		"Link": "blog.html",
+        "Images": [
+            "img/machineLearning.jpeg"
+		]
+	},
 	"Travel": {
 		"Link": "travel.html",
         "Images": [
@@ -28,12 +34,6 @@ const map= {
 		"Link": "video.html",
         "Images": [
             "img/videoSpillianShort.jpg"
-		]
-	},
-	"Research": {
-		"Link": "blog.html",
-        "Images": [
-            "img/machineLearning.jpeg"
 		]
 	},
 	"Carpentry": {
