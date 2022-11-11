@@ -61,7 +61,7 @@ const datas = Object.entries(map);
 const levelBValue  = urlParams.get('levelB');    
 const levelAValue  = urlParams.get('levelA');  
 
-var headerOutput = "Work in Progress"
+var headerOutput = "Kanhar.Net - A life in Progress"
 let output  = '';
 var countriesDisplayed = new Set()
 for(let key of datas) 
